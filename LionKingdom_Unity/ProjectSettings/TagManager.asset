@@ -41,8 +41,14 @@ TagManager:
   - name: Background
     uniqueID: 838142017
     locked: 0
+  - name: Mountains
+    uniqueID: 3265215711
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BehindForeground
+    uniqueID: 315004143
     locked: 0
   - name: Foreground
     uniqueID: 1442035183
