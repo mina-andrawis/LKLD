@@ -43,3 +43,11 @@ ehthumbs.db
 Thumbs.db
 *.log
 LionKingdom_Unity/Logs/AssetImportWorker0.log
+*.log
+LionKingdom_Unity/Logs/AssetImportWorker0-prev.log
+LionKingdom_Unity/Logs/AssetImportWorker0.log
+LionKingdom_Unity/ProjectSettings/TagManager.asset
+*.log
+LionKingdom_Unity/Logs/AssetImportWorker0-prev.log
+LionKingdom_Unity/Logs/AssetImportWorker0-prev.log
+LionKingdom_Unity/Logs/AssetImportWorker0-prev.log
