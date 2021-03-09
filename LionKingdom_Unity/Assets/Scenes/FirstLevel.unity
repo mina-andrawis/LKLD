@@ -7360,7 +7360,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810002843}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 665.42346, y: 93.14157, z: 2.0110843}
+  m_LocalPosition: {x: 625.1, y: 99.3, z: 2.0110843}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 426868538}
@@ -15077,7 +15077,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716485796}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 665.95593, y: 93.21538, z: 2.0110843}
+  m_LocalPosition: {x: 665.95593, y: 68.4, z: 2.0110843}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 426868538}
@@ -17353,8 +17353,8 @@ MonoBehaviour:
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 2147483647
-  m_GroundCheck: {fileID: 1817625549}
-  m_CeilingCheck: {fileID: 852982678}
+  m_GroundCheck: {fileID: 0}
+  m_CeilingCheck: {fileID: 0}
   m_CrouchDisableCollider: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
