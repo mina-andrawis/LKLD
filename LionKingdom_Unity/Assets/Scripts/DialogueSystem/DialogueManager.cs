@@ -35,6 +35,17 @@ public class DialogueManager : MonoBehaviour
         DisplayNextSentence();
     }
 
+    IEnumerator TypeSentece (string sentence)
+    {
+        dialogueText.text = "";
+        foreach(char letter in sentence.ToCharArray())
+        {
+            //loop through each character and add to dialogue text one by one
+            dialogueText.text += letter;
+            yield return null;
+        }
+    }
+
     public void DisplayNextSentence()
     {
         if (sentences.Count == 0)       //no more sentences to show
@@ -44,7 +55,8 @@ public class DialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
-        dialogueText.text = sentence;
+        StopAllCoroutines();        // in case user starts a new routine mid animation of the text being written
+        StartCoroutine(TypeSentece(sentence));
     }
 
     void EndDialogue()
