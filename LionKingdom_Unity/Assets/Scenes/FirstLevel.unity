@@ -17711,7 +17711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Dwayne
+    name: ' '
     sentences:
     - hello!
     - This is a dialgoue
