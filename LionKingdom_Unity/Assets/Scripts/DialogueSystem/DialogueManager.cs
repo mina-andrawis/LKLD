@@ -1,9 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;       //to retirieve UI elements from untiy
 
 public class DialogueManager : MonoBehaviour
 {
+
+    public Text nameText;
+    public Text dialogueText;
+
+    public Animator animator;
+
     private Queue<string> sentences; //FIFO behavior in order to store sentences
 
     // Start is called before the first frame update
@@ -14,7 +21,9 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        Debug.Log("Starting conversation with: " + dialogue.name);
+        animator.SetBool("IsOpen", true);       //set to true since a new dialog is occurring
+
+        nameText.text = dialogue.name;
 
         sentences.Clear();      //clear previous sentences in queue
 
@@ -35,12 +44,13 @@ public class DialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
-        Debug.Log(sentence);
+        dialogueText.text = sentence;
     }
 
     void EndDialogue()
     {
-        Debug.Log("End of convo");
+        animator.SetBool("IsOpen", false);       //set to false since a dialogue has ended
+
     }
 
 
