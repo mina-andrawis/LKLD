@@ -10,6 +10,8 @@ using UnityEngine;
 public class Dialogue
 {
     public string name;
+
+    [TextArea(3,5)] //min and max amount of lines for textarea
     public string[] sentences;
     
 }

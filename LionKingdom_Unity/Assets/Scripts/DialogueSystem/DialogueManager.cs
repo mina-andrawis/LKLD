@@ -11,4 +11,37 @@ public class DialogueManager : MonoBehaviour
     {
         sentences = new Queue<string>();
     }
+
+    public void StartDialogue(Dialogue dialogue)
+    {
+        Debug.Log("Starting conversation with: " + dialogue.name);
+
+        sentences.Clear();      //clear previous sentences in queue
+
+        foreach (string sentence in dialogue.sentences)
+        {
+            sentences.Enqueue(sentence);
+        }
+
+        DisplayNextSentence();
+    }
+
+    public void DisplayNextSentence()
+    {
+        if (sentences.Count == 0)       //no more sentences to show
+        {
+            EndDialogue();
+            return;
+        }
+
+        string sentence = sentences.Dequeue();
+        Debug.Log(sentence);
+    }
+
+    void EndDialogue()
+    {
+        Debug.Log("End of convo");
+    }
+
+
 }
