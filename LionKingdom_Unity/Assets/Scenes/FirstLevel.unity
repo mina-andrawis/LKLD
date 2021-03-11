@@ -1248,14 +1248,14 @@ RectTransform:
   m_GameObject: {fileID: 182260447}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.002, y: 0.002, z: 1}
+  m_LocalScale: {x: 0.0009942335, y: 0.00063602533, z: 1}
   m_Children: []
   m_Father: {fileID: 1087277330}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.71, y: 0.48}
+  m_AnchoredPosition: {x: -1.8354607, y: 0.58473396}
   m_SizeDelta: {x: 676.3196, y: 187.31877}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &194405921
@@ -7286,8 +7286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -89.09999, y: 77.85425}
-  m_SizeDelta: {x: 80.2963, y: 61.7823}
+  m_AnchoredPosition: {x: -89.09999, y: 100.7}
+  m_SizeDelta: {x: 80.2963, y: 106.2655}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &722307083
 GameObject:
@@ -10867,12 +10867,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087277328}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.9, z: 0}
-  m_LocalScale: {x: 13.066135, y: 17.558502, z: 1}
+  m_LocalPosition: {x: -0.3958, y: -7.2502, z: 0}
+  m_LocalScale: {x: 13.222086, y: 45.405518, z: 1}
   m_Children:
+  - {fileID: 1805024748}
   - {fileID: 1236388610}
   - {fileID: 182260450}
-  - {fileID: 1805024748}
   m_Father: {fileID: 707062733}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12350,7 +12350,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 150
+    m_MaxSize: 300
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -12373,17 +12373,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1236388607}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0026, y: 0.0026, z: 1}
+  m_LocalScale: {x: 0.0022867369, y: 0.0014628584, z: 1}
   m_Children: []
   m_Father: {fileID: 1087277330}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.3, y: 0.14}
-  m_SizeDelta: {x: 1585.4966, y: 184.37001}
+  m_AnchoredPosition: {x: 0.029934557, y: 0.26759338}
+  m_SizeDelta: {x: 2041.6299, y: 401.94476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1242284751
 GameObject:
@@ -16629,15 +16629,15 @@ RectTransform:
   m_GameObject: {fileID: 1805024747}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.09057, y: 0.077068076, z: 1}
+  m_LocalScale: {x: 0.090047725, y: 0.026557047, z: 1}
   m_Children:
   - {fileID: 27922837}
   m_Father: {fileID: 1087277330}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.4128199, y: -0.97505}
+  m_AnchoredPosition: {x: 1.4521008, y: -0.5891304}
   m_SizeDelta: {x: 17.9523, y: 10.8131}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1805024749
@@ -17601,7 +17601,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000002861, y: 22.4}
+  m_AnchoredPosition: {x: 0.000002861, y: 37.7}
   m_SizeDelta: {x: 24.2788, y: 12.711}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1908870403
@@ -17713,9 +17713,13 @@ MonoBehaviour:
   dialogue:
     name: ' '
     sentences:
-    - hello!
-    - This is a dialgoue
-    - TEST TEST TEST
+    - What's that?
+    - An intelligent primate? I haven't seen one like you since the humans were wiped
+      out thousands of years ago.
+    - Better watch your back. Lions arent very fond of your kind.
+    - Primates have been enslaved as long as I can remember.
+    - It's up to you to release your brothers from the shackles of the lions.. or
+      die trying.
 --- !u!1 &1913976988
 GameObject:
   m_ObjectHideFlags: 0
