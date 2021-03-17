@@ -6,6 +6,7 @@ public class Weapon : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject arrowPrefab;
+    public Animator animator;
 
     // Update is called once per frame
     void Update()
@@ -13,6 +14,10 @@ public class Weapon : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
+            animator.SetBool("IsFiring", true);
+        }else if(Input.GetButtonUp("Fire1"))
+        {
+            animator.SetBool("IsFiring", false);
         }
     }
 
