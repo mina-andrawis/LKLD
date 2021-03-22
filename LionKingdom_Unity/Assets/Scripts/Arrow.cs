@@ -17,7 +17,7 @@ public class Arrow : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // 
+        //
         if (collision.GetComponent<Enemy>())
         {
             Debug.Log(collision.name);
@@ -26,6 +26,7 @@ public class Arrow : MonoBehaviour
             // checks if the arrow hit an enemy and deals damage
             if (enemy != null)
                 enemy.TakeDamage(damage);
+                //EnemyHealth.TakeDamage(dam);
 
 
             Destroy(gameObject);

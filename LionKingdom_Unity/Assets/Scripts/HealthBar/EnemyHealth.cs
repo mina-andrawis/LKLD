@@ -9,6 +9,7 @@ public class EnemyHealth : MonoBehaviour
 
   public int maxHealth = 100;
   public int currentHealth;
+  public Arrow arrow;
 
   public HealthBar healthBar;
 
@@ -24,7 +25,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-          TakeDamage(34);
+          TakeDamage(30);
         }
     }
 
