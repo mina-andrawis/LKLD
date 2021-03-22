@@ -25,13 +25,15 @@ public class EnemyHealth : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-          TakeDamage(30);
+          //TakeDamage(30);
         }
     }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
+      Debug.Log("Damage taken");
       currentHealth -= damage;
       healthBar.SetHealth(currentHealth);
     }
+
 }

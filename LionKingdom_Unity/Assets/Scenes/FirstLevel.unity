@@ -13343,8 +13343,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 44.4396, y: 17.9068}
-  m_SizeDelta: {x: 94.4309, y: 30.7163}
+  m_AnchoredPosition: {x: 31.0068, y: 17.9068}
+  m_SizeDelta: {x: 84.858, y: 30.7163}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &952078848
 GameObject:
@@ -14625,7 +14625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 100
-  arrow: {fileID: 0}
+  arrow: {fileID: 5060763872128798932, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
   healthBar: {fileID: 1338075421}
 --- !u!1 &1036442298
 GameObject:
