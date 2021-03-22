@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;   //in order to create variable to store slider
 
 
-public class PlayerHealth : MonoBehaviour
+public class EnemyHealth : MonoBehaviour
 {
 
-  public int maxHealth = 30;
+  public int maxHealth = 100;
   public int currentHealth;
 
   public HealthBar healthBar;
@@ -24,7 +24,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-          TakeDamage(5);
+          TakeDamage(34);
         }
     }
 
