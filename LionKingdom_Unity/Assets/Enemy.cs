@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading.Tasks;
 
 public class Enemy : MonoBehaviour
 {
     public int health = 100;
-    public GameObject deathEffect;
+    public Animator animator;
 
     public void TakeDamage(int damage)
     {
@@ -17,7 +18,8 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
-        //Instantiate(deathEffect, transform.position, Quaternion.identity);
+        animator.SetBool("IsDead", true);
+        Task.Delay(3000);
         Destroy(gameObject);
     }
 }
