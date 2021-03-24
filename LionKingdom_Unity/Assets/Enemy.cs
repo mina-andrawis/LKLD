@@ -19,7 +19,5 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         animator.SetBool("IsDead", true);
-        Task.Delay(3000);
-        Destroy(gameObject);
     }
 }
