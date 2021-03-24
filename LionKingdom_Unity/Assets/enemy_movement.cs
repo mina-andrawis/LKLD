@@ -13,6 +13,7 @@ public class enemy_movement : MonoBehaviour
     void Update()
     {
         // if move right is true
+        speed = 8;
         if (moveRight)
         {
             transform.Translate(2 * Time.deltaTime * speed, 0, 0);
