@@ -7157,7 +7157,7 @@ GameObject:
   - component: {fileID: 655420454}
   m_Layer: 0
   m_Name: lion4
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9695,7 +9695,7 @@ GameObject:
   - component: {fileID: 874505087}
   m_Layer: 0
   m_Name: lion5
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11698,7 +11698,7 @@ GameObject:
   - component: {fileID: 1034980260}
   m_Layer: 0
   m_Name: lion1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12460,7 +12460,7 @@ GameObject:
   - component: {fileID: 1096074206}
   m_Layer: 8
   m_Name: lion1 - follow
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14675,7 +14675,7 @@ GameObject:
   - component: {fileID: 1312209670}
   m_Layer: 0
   m_Name: lions
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19201,7 +19201,7 @@ GameObject:
   - component: {fileID: 1825654230}
   m_Layer: 0
   m_Name: lion3
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21601,7 +21601,7 @@ GameObject:
   - component: {fileID: 1997383756}
   m_Layer: 0
   m_Name: lion2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23285,7 +23285,7 @@ GameObject:
   - component: {fileID: 2134927702}
   m_Layer: 0
   m_Name: lion4
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
