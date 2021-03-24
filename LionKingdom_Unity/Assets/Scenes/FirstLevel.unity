@@ -771,7 +771,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77609776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.80661, y: 89.22239, z: -10}
+  m_LocalPosition: {x: -25.0002, y: 89.22047, z: -10}
   m_LocalScale: {x: 2, y: 3, z: 1}
   m_Children:
   - {fileID: 968822557}
@@ -4078,6 +4078,8 @@ GameObject:
   - component: {fileID: 534634394}
   - component: {fileID: 534634393}
   - component: {fileID: 534634395}
+  - component: {fileID: 534634397}
+  - component: {fileID: 534634396}
   m_Layer: 0
   m_Name: GroundTiles
   m_TagString: Untagged
@@ -6348,6 +6350,58 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!61 &534634396
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534634391}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 697.02185, y: 12.142033}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.481445, y: 69.89535}
+  m_EdgeRadius: 0
+--- !u!61 &534634397
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534634391}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -42.086403, y: 12.122318}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.309738, y: 68.053764}
+  m_EdgeRadius: 0
 --- !u!1 &547031679
 GameObject:
   m_ObjectHideFlags: 0
@@ -11642,7 +11696,6 @@ GameObject:
   - component: {fileID: 1034980255}
   - component: {fileID: 1034980254}
   - component: {fileID: 1034980260}
-  - component: {fileID: 1034980261}
   m_Layer: 0
   m_Name: lion1
   m_TagString: Untagged
@@ -19009,7 +19062,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.5021834, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -19026,7 +19079,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813845793}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -35.814407, y: 69.799995, z: -10}
+  m_LocalPosition: {x: -25.011108, y: 69.799995, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 900969003}
@@ -21191,7 +21244,6 @@ GameObject:
   - component: {fileID: 1996306361}
   - component: {fileID: 1996306364}
   - component: {fileID: 1996306365}
-  - component: {fileID: 1996306366}
   - component: {fileID: 1996306367}
   m_Layer: 6
   m_Name: Player
@@ -21433,18 +21485,6 @@ MonoBehaviour:
   firePoint: {fileID: 323693254}
   arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
   animator: {fileID: 1996306364}
---- !u!114 &1996306366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996306356}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c638fde2d063b43e198d70ef3bf5fb2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1996306367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21460,6 +21500,7 @@ MonoBehaviour:
   maxHealth: 30
   currentHealth: 0
   healthBar: {fileID: 1558023135}
+  animator: {fileID: 0}
 --- !u!1 &1996393348
 GameObject:
   m_ObjectHideFlags: 0
