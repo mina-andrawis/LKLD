@@ -3129,6 +3129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   moveRight: 0
+  animator: {fileID: 349718620}
 --- !u!50 &349718618
 Rigidbody2D:
   serializedVersion: 4
@@ -4187,6 +4188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   moveRight: 0
+  animator: {fileID: 484026234}
 --- !u!50 &484026232
 Rigidbody2D:
   serializedVersion: 4
@@ -13287,6 +13289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   moveRight: 0
+  animator: {fileID: 1034980257}
 --- !u!50 &1034980255
 Rigidbody2D:
   serializedVersion: 4
@@ -15789,6 +15792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   moveRight: 0
+  animator: {fileID: 1235441200}
 --- !u!50 &1235441198
 Rigidbody2D:
   serializedVersion: 4
@@ -20346,6 +20350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   moveRight: 0
+  animator: {fileID: 1709572050}
 --- !u!50 &1709572048
 Rigidbody2D:
   serializedVersion: 4
@@ -22610,6 +22615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   moveRight: 0
+  animator: {fileID: 1891435363}
 --- !u!50 &1891435361
 Rigidbody2D:
   serializedVersion: 4

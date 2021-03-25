@@ -7,11 +7,14 @@ public class enemy_movement : MonoBehaviour
     // Start is called before the first frame update
     public float speed;
     public bool moveRight;
+    public Animator animator;
 
 
     // Update is called once per frame
     void Update()
     {
+        if(animator.GetBool("IsDead") == true)return;
+        
         // if move right is true
         speed = 8;
         if (moveRight)
