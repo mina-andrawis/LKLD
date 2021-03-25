@@ -13,7 +13,10 @@ public class enemy_movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(animator.GetBool("IsDead") == true)return;
+        if(animator.GetBool("IsDead") == true){
+            this.GetComponent<Collider2D>().enabled = false;
+            return;
+        }
         
         // if move right is true
         speed = 8;
