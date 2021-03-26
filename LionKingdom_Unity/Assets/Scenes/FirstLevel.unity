@@ -601,7 +601,7 @@ GameObject:
   - component: {fileID: 48791703}
   - component: {fileID: 48791702}
   - component: {fileID: 48791701}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2570,7 +2570,7 @@ GameObject:
   - component: {fileID: 290358381}
   - component: {fileID: 290358380}
   - component: {fileID: 290358379}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3061,9 +3061,8 @@ GameObject:
   - component: {fileID: 349718619}
   - component: {fileID: 349718618}
   - component: {fileID: 349718617}
-  - component: {fileID: 349718616}
   - component: {fileID: 349718615}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: lion3
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -3097,24 +3096,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96e55566e34a2417290b9384719a8078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
-  arrow: {fileID: 5060763872128798932, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
-  healthBar: {fileID: 1589004447}
---- !u!114 &349718616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 349718613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dc65e9cf8c4b4f718d67c1284d75dcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
   animator: {fileID: 349718620}
+  maxHealth: 100
+  healthBar: {fileID: 1589004447}
 --- !u!114 &349718617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3234,8 +3218,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 897043853
-  m_SortingLayer: 4
+  m_SortingLayerID: 1075948243
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e514d830cf120a0438951f9818ef8e52, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4120,9 +4104,8 @@ GameObject:
   - component: {fileID: 484026233}
   - component: {fileID: 484026232}
   - component: {fileID: 484026231}
-  - component: {fileID: 484026230}
   - component: {fileID: 484026229}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: lion4
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -4156,24 +4139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96e55566e34a2417290b9384719a8078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
-  arrow: {fileID: 5060763872128798932, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
-  healthBar: {fileID: 1046432053}
---- !u!114 &484026230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484026227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dc65e9cf8c4b4f718d67c1284d75dcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
   animator: {fileID: 484026234}
+  maxHealth: 100
+  healthBar: {fileID: 1046432053}
 --- !u!114 &484026231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4293,8 +4261,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 897043853
-  m_SortingLayer: 4
+  m_SortingLayerID: 1075948243
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e514d830cf120a0438951f9818ef8e52, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4401,7 +4369,7 @@ GameObject:
   - component: {fileID: 503328591}
   - component: {fileID: 503328593}
   - component: {fileID: 503328592}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7604,7 +7572,7 @@ GameObject:
   - component: {fileID: 602780175}
   - component: {fileID: 602780174}
   - component: {fileID: 602780173}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8508,7 +8476,7 @@ GameObject:
   - component: {fileID: 698268009}
   - component: {fileID: 698268008}
   - component: {fileID: 698268007}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8691,7 +8659,7 @@ GameObject:
   - component: {fileID: 704890009}
   - component: {fileID: 704890008}
   - component: {fileID: 704890007}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8790,7 +8758,7 @@ GameObject:
   - component: {fileID: 705278414}
   - component: {fileID: 705278416}
   - component: {fileID: 705278415}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9178,7 +9146,7 @@ GameObject:
   - component: {fileID: 729036962}
   - component: {fileID: 729036964}
   - component: {fileID: 729036963}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Health bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9313,7 +9281,7 @@ GameObject:
   - component: {fileID: 738601145}
   - component: {fileID: 738601144}
   - component: {fileID: 738601143}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9412,7 +9380,7 @@ GameObject:
   - component: {fileID: 748313405}
   - component: {fileID: 748313407}
   - component: {fileID: 748313406}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9985,7 +9953,7 @@ GameObject:
   - component: {fileID: 802753916}
   - component: {fileID: 802753918}
   - component: {fileID: 802753917}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10226,7 +10194,7 @@ GameObject:
   - component: {fileID: 815620199}
   - component: {fileID: 815620201}
   - component: {fileID: 815620200}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Health bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11024,7 +10992,7 @@ GameObject:
   - component: {fileID: 887110170}
   - component: {fileID: 887110172}
   - component: {fileID: 887110171}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11518,7 +11486,7 @@ GameObject:
   - component: {fileID: 934867574}
   - component: {fileID: 934867576}
   - component: {fileID: 934867575}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Health bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11652,7 +11620,7 @@ GameObject:
   - component: {fileID: 937176627}
   - component: {fileID: 937176629}
   - component: {fileID: 937176628}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11810,7 +11778,7 @@ GameObject:
   - component: {fileID: 942382388}
   - component: {fileID: 942382390}
   - component: {fileID: 942382389}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Health bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13266,9 +13234,8 @@ GameObject:
   - component: {fileID: 1034980256}
   - component: {fileID: 1034980255}
   - component: {fileID: 1034980254}
-  - component: {fileID: 1034980260}
   - component: {fileID: 1034980261}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: lion1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -13327,8 +13294,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: -0.23}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3}
+    pivot: {x: 0.5, y: 0.1}
+    oldSize: {x: 2.7692308, y: 2.3076923}
     newSize: {x: 3.6, y: 3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -13394,8 +13361,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 897043853
-  m_SortingLayer: 4
+  m_SortingLayerID: 1075948243
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e514d830cf120a0438951f9818ef8e52, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13423,20 +13390,6 @@ Transform:
   m_Father: {fileID: 1312209670}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1034980260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1034980253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dc65e9cf8c4b4f718d67c1284d75dcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  animator: {fileID: 1034980257}
 --- !u!114 &1034980261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13449,9 +13402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96e55566e34a2417290b9384719a8078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1034980257}
   maxHealth: 100
-  currentHealth: 0
-  arrow: {fileID: 5060763872128798932, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
   healthBar: {fileID: 729036963}
 --- !u!1 &1036442298
 GameObject:
@@ -13631,7 +13583,7 @@ GameObject:
   - component: {fileID: 1045819854}
   - component: {fileID: 1045819853}
   - component: {fileID: 1045819852}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13730,7 +13682,7 @@ GameObject:
   - component: {fileID: 1046432052}
   - component: {fileID: 1046432054}
   - component: {fileID: 1046432053}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Health bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13947,7 +13899,7 @@ GameObject:
   - component: {fileID: 1073058593}
   - component: {fileID: 1073058595}
   - component: {fileID: 1073058594}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15724,9 +15676,8 @@ GameObject:
   - component: {fileID: 1235441199}
   - component: {fileID: 1235441198}
   - component: {fileID: 1235441197}
-  - component: {fileID: 1235441196}
   - component: {fileID: 1235441195}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: lion2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -15760,24 +15711,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96e55566e34a2417290b9384719a8078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
-  arrow: {fileID: 5060763872128798932, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
-  healthBar: {fileID: 934867575}
---- !u!114 &1235441196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1235441193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dc65e9cf8c4b4f718d67c1284d75dcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
   animator: {fileID: 1235441200}
+  maxHealth: 100
+  healthBar: {fileID: 934867575}
 --- !u!114 &1235441197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15897,8 +15833,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 897043853
-  m_SortingLayer: 4
+  m_SortingLayerID: 1075948243
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e514d830cf120a0438951f9818ef8e52, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -16084,7 +16020,7 @@ GameObject:
   - component: {fileID: 1265727011}
   - component: {fileID: 1265727013}
   - component: {fileID: 1265727012}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17878,7 +17814,7 @@ GameObject:
   - component: {fileID: 1545719552}
   - component: {fileID: 1545719551}
   - component: {fileID: 1545719550}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18361,7 +18297,7 @@ GameObject:
   - component: {fileID: 1586062928}
   - component: {fileID: 1586062930}
   - component: {fileID: 1586062929}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18436,7 +18372,7 @@ GameObject:
   - component: {fileID: 1589004446}
   - component: {fileID: 1589004448}
   - component: {fileID: 1589004447}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Health bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20121,7 +20057,7 @@ GameObject:
   - component: {fileID: 1703937049}
   - component: {fileID: 1703937051}
   - component: {fileID: 1703937050}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20282,9 +20218,8 @@ GameObject:
   - component: {fileID: 1709572049}
   - component: {fileID: 1709572048}
   - component: {fileID: 1709572047}
-  - component: {fileID: 1709572046}
   - component: {fileID: 1709572045}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: lion6
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -20318,24 +20253,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96e55566e34a2417290b9384719a8078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
-  arrow: {fileID: 5060763872128798932, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
-  healthBar: {fileID: 942382389}
---- !u!114 &1709572046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709572043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dc65e9cf8c4b4f718d67c1284d75dcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
   animator: {fileID: 1709572050}
+  maxHealth: 100
+  healthBar: {fileID: 942382389}
 --- !u!114 &1709572047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20455,8 +20375,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 897043853
-  m_SortingLayer: 4
+  m_SortingLayerID: 1075948243
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e514d830cf120a0438951f9818ef8e52, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -21201,7 +21121,7 @@ GameObject:
   - component: {fileID: 1802120895}
   - component: {fileID: 1802120897}
   - component: {fileID: 1802120896}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21410,7 +21330,7 @@ GameObject:
   - component: {fileID: 1805055947}
   - component: {fileID: 1805055946}
   - component: {fileID: 1805055945}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21871,7 +21791,7 @@ GameObject:
   - component: {fileID: 1838314222}
   - component: {fileID: 1838314224}
   - component: {fileID: 1838314223}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22030,7 +21950,7 @@ GameObject:
   - component: {fileID: 1856512437}
   - component: {fileID: 1856512436}
   - component: {fileID: 1856512435}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22547,9 +22467,8 @@ GameObject:
   - component: {fileID: 1891435362}
   - component: {fileID: 1891435361}
   - component: {fileID: 1891435360}
-  - component: {fileID: 1891435359}
   - component: {fileID: 1891435358}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: lion5
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -22583,24 +22502,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96e55566e34a2417290b9384719a8078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1709572050}
   maxHealth: 100
-  currentHealth: 0
-  arrow: {fileID: 5060763872128798932, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
   healthBar: {fileID: 815620200}
---- !u!114 &1891435359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1891435356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dc65e9cf8c4b4f718d67c1284d75dcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  animator: {fileID: 1891435363}
 --- !u!114 &1891435360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22720,8 +22624,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 897043853
-  m_SortingLayer: 4
+  m_SortingLayerID: 1075948243
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e514d830cf120a0438951f9818ef8e52, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -23849,6 +23753,7 @@ GameObject:
   - component: {fileID: 1996306364}
   - component: {fileID: 1996306365}
   - component: {fileID: 1996306367}
+  - component: {fileID: 1996306366}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -24089,6 +23994,27 @@ MonoBehaviour:
   firePoint: {fileID: 323693254}
   arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
   animator: {fileID: 1996306364}
+--- !u!114 &1996306366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996306356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe619bfcf26a4e16853ac2ba1c1238b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1996306364}
+  attackPoint: {fileID: 323693254}
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 512
+  knifePrefab: {fileID: 1679379326609583192, guid: f51c8019202fd412f89bc930253606bf, type: 3}
+  attackRange: 0.5
+  attackDamage: 40
+  attackRate: 2
 --- !u!114 &1996306367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24283,7 +24209,7 @@ GameObject:
   - component: {fileID: 2001166398}
   - component: {fileID: 2001166397}
   - component: {fileID: 2001166396}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24710,7 +24636,7 @@ GameObject:
   - component: {fileID: 2029724034}
   - component: {fileID: 2029724033}
   - component: {fileID: 2029724032}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}

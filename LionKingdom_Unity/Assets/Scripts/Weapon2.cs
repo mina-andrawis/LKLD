@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCombat : MonoBehaviour
+public class Weapon2 : MonoBehaviour
 {
-	public Animator animator;
+   public Animator animator;
 	
 	public Transform attackPoint;
 	public LayerMask enemyLayers;
+    public GameObject knifePrefab;
 	
 	public float attackRange = 0.5f;
 	public int attackDamage = 40;
@@ -30,8 +31,9 @@ public class PlayerCombat : MonoBehaviour
 	
 	void Attack()
 	{
+        Instantiate(knifePrefab, attackPoint.position, attackPoint.rotation);
 		//Play an attack animation
-		animator.SetTrigger("Attack");
+		animator.SetTrigger("IsAttacking");
 		
 		//Detect enemies in range of attack
 		Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);

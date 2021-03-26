@@ -23,7 +23,7 @@ public class Arrow : MonoBehaviour
         {
             Debug.Log(collision.name);
             Enemy enemy = collision.GetComponent<Enemy>();
-            EnemyHealth enemyHealth = collision.GetComponent<EnemyHealth>();
+            Enemy enemyHealth = collision.GetComponent<Enemy>();
 
             // checks if the arrow hit an enemy and deals damage
             if (enemy != null)
@@ -31,7 +31,7 @@ public class Arrow : MonoBehaviour
                 enemy.TakeDamage(damage);
                 Debug.Log("Damage given: " + damage);
 
-                enemyHealth.TakeDamage(30);
+                enemyHealth.TakeDamage(damage);
             }
 
             Destroy(gameObject);
