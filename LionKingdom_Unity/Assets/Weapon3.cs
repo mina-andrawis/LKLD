@@ -31,7 +31,7 @@ public class Weapon3 : MonoBehaviour
 
     void Throw()
     {
-        // shooting logic
+        // throwing logic
         Instantiate(bombPrefab, firePoint.position, firePoint.rotation);
     }
 }

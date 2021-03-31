@@ -10,6 +10,7 @@ public class Bomb : MonoBehaviour
     public bool Thrown;
     public int damage = 30;
     public float splashRange = 1;
+    public Animator animator;
     
     private void Start()
     {
@@ -59,8 +60,8 @@ public class Bomb : MonoBehaviour
                 enemy.TakeDamage(damage);
             }
         }
-
-        Destroy(gameObject);
-
+        animator.SetTrigger("IsExploding");
+        
+        Destroy(gameObject, 1);
     }
 }
