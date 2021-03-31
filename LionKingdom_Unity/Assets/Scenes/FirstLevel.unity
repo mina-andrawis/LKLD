@@ -13294,8 +13294,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: -0.23}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.1}
-    oldSize: {x: 2.7692308, y: 2.3076923}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.6, y: 3}
     newSize: {x: 3.6, y: 3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -23754,6 +23754,7 @@ GameObject:
   - component: {fileID: 1996306365}
   - component: {fileID: 1996306367}
   - component: {fileID: 1996306366}
+  - component: {fileID: 1996306368}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -24030,6 +24031,21 @@ MonoBehaviour:
   maxHealth: 30
   currentHealth: 0
   healthBar: {fileID: 1558023135}
+  animator: {fileID: 1996306364}
+--- !u!114 &1996306368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996306356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 197abd6d746ca44a1b5697413be131b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 323693254}
+  bombPrefab: {fileID: 1334213936878926470, guid: 841e6de42bf404727be6fd369a3aac20, type: 3}
   animator: {fileID: 1996306364}
 --- !u!1 &1996393348
 GameObject:
