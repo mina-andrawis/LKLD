@@ -26,12 +26,13 @@ public class Bomb : MonoBehaviour
     {
         if(!Thrown)
         {
-            transform.position += -transform.right * Speed * Time.deltaTime;
+            transform.position += transform.right * Speed * Time.deltaTime;
         }
         
     }
     
-    private void OnTriggerEnter2D(Collider2D collision)
+    
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if(splashRange > 0)
         {
@@ -52,7 +53,7 @@ public class Bomb : MonoBehaviour
         }
         else
         {
-            var enemy = collision.GetComponent<Collider>().GetComponent<Enemy>();
+            var enemy = collision.collider.GetComponent<Enemy>();
             if(enemy)
             {
                 enemy.TakeDamage(damage);
