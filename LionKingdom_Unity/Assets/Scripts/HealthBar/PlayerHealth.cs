@@ -39,6 +39,7 @@ public class PlayerHealth : MonoBehaviour
     
     void Die()
     {
-    animator.SetBool("IsDead", true);
+        animator.SetBool("IsDead", true);
+        Application.LoadLevel(Application.loadedLevel);
     }
 }
