@@ -8,6 +8,8 @@ public class Enemy : MonoBehaviour
 {
 
   public Animator animator;
+  public GameObject healthPotion;
+  public Transform dropPoint;
 	
 	public int maxHealth = 100;
 	int currentHealth;
@@ -36,8 +38,12 @@ public class Enemy : MonoBehaviour
 	void Die()
 	{
 		Debug.Log("Enemy died!");
-		
 		GetComponent<Collider2D>().enabled = false;
+  
+        if (Random.Range (0f, 1f) <= .25)
+        {
+            Instantiate (healthPotion, dropPoint.position, dropPoint.rotation);
+        }
 		this.enabled = false;
         Destroy(gameObject, 2);
 	}
