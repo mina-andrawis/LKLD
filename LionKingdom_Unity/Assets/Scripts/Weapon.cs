@@ -21,11 +21,7 @@ public class Weapon : MonoBehaviour
             NextFire = Time.time + FireRate;
 
             Shoot();
-            animator.SetBool("IsFiring", true);
-
-        }else if(Input.GetButtonUp("Fire1"))
-        {
-            animator.SetBool("IsFiring", false);
+            animator.SetTrigger("IsFiring");
         }
     }
 
