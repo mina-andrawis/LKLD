@@ -4,25 +4,32 @@ using UnityEngine;
 
 public class ChestOpen : MonoBehaviour
 {
-    private float radius;
-    private float distance;
-    public Animator anim;
+  
+
+
+    public Animator animator;
     public GameObject Player;
     public GameObject Target;
 
     private void Start()
     {
-        anim = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
+        
     }
 
     private void Update()
     {
         radius = Vector3.Distance(Player.transform.position, Target.transform.position);
 
-        if (radius < 1f && Input.GetMouseButtonDown(1))
+        if (radius < 5f)
         {
-            GetComponent<Animator>().SetTrigger("isOpened");
+            animator.SetBool("IsOpen", true);
             Debug.Log("Animation played");
+        }
+        else
+        {
+            animator.SetBool("IsOpen", false);
+
         }
     }
 }
