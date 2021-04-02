@@ -46,7 +46,7 @@ public class Enemy : MonoBehaviour
  
     public void OnDestroy()
     {
-        if (Random.Range (0f, 1f) <= 1)
+        if (Random.Range (0f, 1f) <= .25)
         {
             Instantiate (healthPotion, dropPoint.position, dropPoint.rotation);
         }

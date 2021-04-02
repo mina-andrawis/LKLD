@@ -33,14 +33,6 @@ public class PlayerMovement : MonoBehaviour
 		}
     }
     
-    private void OnTriggerEnter2D(Collider2D potion)
-    {
-        if(potion.gameObject.CompareTag("Potion"))
-        {
-            Destroy(potion.gameObject);
-        }
-    }
-    
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
