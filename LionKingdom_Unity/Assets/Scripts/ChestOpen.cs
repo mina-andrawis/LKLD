@@ -31,10 +31,10 @@ public class ChestOpen : MonoBehaviour
         radius = Vector3.Distance(Player.transform.position, Target.transform.position);
         //Debug.Log(radius);
 
-        if (radius < 60f )
+        if (radius <40f)
         {
-            //GetComponent<Animator>().SetBool("isOpened",true);
-            //Debug.Log(mySpriteResolver.GetLabel());
+            GetComponent<Animator>().SetBool("isOpen",true);
+            Debug.Log(GetComponent<Animator>().GetBool("isOpen"));
             //Debug.Log("Animation played");
             mySpriteResolver.SetCategoryAndLabel("Chest", "OpenChest");
         }
