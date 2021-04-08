@@ -17,6 +17,8 @@ public class ChestOpen : MonoBehaviour
 
     public SpriteResolver mySpriteResolver;
 
+    public bool isRunning;
+
     //retrieve spriteLibrary that the SpriteResolver is resolving from
     public SpriteLibrary spriteLibrary { get; }
 
@@ -32,6 +34,8 @@ public class ChestOpen : MonoBehaviour
         Gun = GameObject.FindWithTag("Gun");
         Gun.SetActive(false);   //make invisible until chest opens
 
+        isRunning = false;
+
 
     }
 
@@ -39,7 +43,6 @@ public class ChestOpen : MonoBehaviour
     {
         radius = Vector3.Distance(Player.transform.position, Chest.transform.position);
         //Debug.Log(radius);
-
         if (radius <60f)
         {
             GetComponent<Animator>().SetBool("isOpen",true);
@@ -47,6 +50,25 @@ public class ChestOpen : MonoBehaviour
             DialogueBox.SetActive(true);   //make visible
 
             mySpriteResolver.SetCategoryAndLabel("Chest", "OpenChest");
+
+            if (!isRunning)
+            {
+              StartCoroutine(endLevel());
+            }
+
+
         }
     }
+
+  //wait 5 seconds before fading to black and starting next level
+  IEnumerator endLevel()
+  {
+    isRunning = true;
+    //Print the time of when the function is first called.
+    Debug.Log("Started Coroutine at timestamp : " + Time.time);
+    yield return new WaitForSeconds(5);
+    //After we have waited 5 seconds print the time again.
+    Debug.Log("Finished Coroutine at timestamp : " + Time.time);
+    isRunning = false;
+  }
 }

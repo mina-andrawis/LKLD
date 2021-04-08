@@ -898,7 +898,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77609776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.427216, y: 89.223564, z: -10}
+  m_LocalPosition: {x: -40.959824, y: 89.2233, z: -10}
   m_LocalScale: {x: 2, y: 3, z: 1}
   m_Children:
   - {fileID: 968822557}
@@ -3097,6 +3097,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 349718620}
+  healthPotion: {fileID: 0}
+  dropPoint: {fileID: 0}
   maxHealth: 100
   healthBar: {fileID: 1589004447}
 --- !u!114 &349718617
@@ -4140,6 +4142,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 484026234}
+  healthPotion: {fileID: 0}
+  dropPoint: {fileID: 0}
   maxHealth: 100
   healthBar: {fileID: 1046432053}
 --- !u!114 &484026231
@@ -8875,89 +8879,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &706460440
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 706460442}
-  - component: {fileID: 706460441}
-  m_Layer: 0
-  m_Name: scifiGun
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &706460441
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706460440}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1075948243
-  m_SortingLayer: 5
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e0c32248079dad64ba50f63311d80da4, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 8.4, y: 8.59}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &706460442
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706460440}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 120.634544, y: 46.82506, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &707062729
 GameObject:
   m_ObjectHideFlags: 0
@@ -13456,6 +13377,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1034980257}
+  healthPotion: {fileID: 0}
+  dropPoint: {fileID: 0}
   maxHealth: 100
   healthBar: {fileID: 729036963}
 --- !u!1 &1036442298
@@ -15765,6 +15688,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1235441200}
+  healthPotion: {fileID: 0}
+  dropPoint: {fileID: 0}
   maxHealth: 100
   healthBar: {fileID: 934867575}
 --- !u!114 &1235441197
@@ -17390,7 +17315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459199476}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1263.1, y: 38.7, z: 0}
+  m_LocalPosition: {x: 151.9, y: 48.2, z: 0}
   m_LocalScale: {x: 24.38643, y: 24.102356, z: 1}
   m_Children:
   - {fileID: 1321680512}
@@ -17416,6 +17341,7 @@ MonoBehaviour:
   Gun: {fileID: 2035536355}
   DialogueBox: {fileID: 1321680508}
   mySpriteResolver: {fileID: 0}
+  timer: 0
 --- !u!114 &1459199482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20671,6 +20597,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1709572050}
+  healthPotion: {fileID: 0}
+  dropPoint: {fileID: 0}
   maxHealth: 100
   healthBar: {fileID: 942382389}
 --- !u!114 &1709572047
@@ -21909,7 +21837,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.3333334, y: 1}
+    m_SensorSize: {x: 1.3707572, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -21926,7 +21854,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813845793}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -42.433327, y: 69.799995, z: -10}
+  m_LocalPosition: {x: -40.966312, y: 69.799995, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 900969003}
@@ -23002,6 +22930,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1709572050}
+  healthPotion: {fileID: 0}
+  dropPoint: {fileID: 0}
   maxHealth: 100
   healthBar: {fileID: 815620200}
 --- !u!114 &1891435360
