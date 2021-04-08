@@ -12,7 +12,8 @@ public class ChestOpen : MonoBehaviour
     public Animator anim;
     public GameObject Player;
     public GameObject Chest;
-    public GameObject BowAndArrow;
+    public GameObject Gun;
+    public GameObject DialogueBox;
 
     public SpriteResolver mySpriteResolver;
 
@@ -25,8 +26,12 @@ public class ChestOpen : MonoBehaviour
         mySpriteResolver = GetComponent<SpriteResolver>();
         Player = GameObject.FindWithTag("Player");
         Chest = GameObject.FindWithTag("Chest");
-        BowAndArrow = GameObject.FindWithTag("BowAndArrow");
-        BowAndArrow.SetActive(false);   //make invisible until chest opens
+        DialogueBox = GameObject.FindWithTag("NewWeaponDialogue");
+        DialogueBox.SetActive(false);   //make invisible until chest opens
+
+        Gun = GameObject.FindWithTag("Gun");
+        Gun.SetActive(false);   //make invisible until chest opens
+
 
     }
 
@@ -35,11 +40,12 @@ public class ChestOpen : MonoBehaviour
         radius = Vector3.Distance(Player.transform.position, Chest.transform.position);
         //Debug.Log(radius);
 
-        if (radius <40f)
+        if (radius <60f)
         {
             GetComponent<Animator>().SetBool("isOpen",true);
-            Debug.Log(GetComponent<Animator>().GetBool("isOpen"));
-            BowAndArrow.SetActive(true);   //make visible
+            Gun.SetActive(true);   //make visible
+            DialogueBox.SetActive(true);   //make visible
+
             mySpriteResolver.SetCategoryAndLabel("Chest", "OpenChest");
         }
     }
