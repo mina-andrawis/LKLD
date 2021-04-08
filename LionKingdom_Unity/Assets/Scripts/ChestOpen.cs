@@ -11,7 +11,8 @@ public class ChestOpen : MonoBehaviour
 
     public Animator anim;
     public GameObject Player;
-    public GameObject Target;
+    public GameObject Chest;
+    public GameObject BowAndArrow;
 
     public SpriteResolver mySpriteResolver;
 
@@ -23,19 +24,22 @@ public class ChestOpen : MonoBehaviour
         anim = GetComponent<Animator>();
         mySpriteResolver = GetComponent<SpriteResolver>();
         Player = GameObject.FindWithTag("Player");
-        Target = GameObject.FindWithTag("Chest");
+        Chest = GameObject.FindWithTag("Chest");
+        BowAndArrow = GameObject.FindWithTag("BowAndArrow");
+        BowAndArrow.SetActive(false);   //make invisible until chest opens
+
     }
 
     private void Update()
     {
-        radius = Vector3.Distance(Player.transform.position, Target.transform.position);
+        radius = Vector3.Distance(Player.transform.position, Chest.transform.position);
         //Debug.Log(radius);
 
         if (radius <40f)
         {
             GetComponent<Animator>().SetBool("isOpen",true);
             Debug.Log(GetComponent<Animator>().GetBool("isOpen"));
-            //Debug.Log("Animation played");
+            BowAndArrow.SetActive(true);   //make visible
             mySpriteResolver.SetCategoryAndLabel("Chest", "OpenChest");
         }
     }
