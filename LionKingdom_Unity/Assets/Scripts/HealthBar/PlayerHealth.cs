@@ -7,7 +7,7 @@ using UnityEngine.UI;   //in order to create variable to store slider
 public class PlayerHealth : MonoBehaviour
 {
 
-  public int maxHealth = 30;
+  public int maxHealth = 100;
   public int currentHealth;
 
   public HealthBar healthBar;
@@ -29,8 +29,18 @@ public class PlayerHealth : MonoBehaviour
           TakeDamage(5);
         }
     }
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("Potion"))
+        {
+            currentHealth += 10;
+            healthBar.SetHealth(currentHealth);
+            Destroy(other.gameObject);
+        }
+    }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
       currentHealth -= damage;
       healthBar.SetHealth(currentHealth);
