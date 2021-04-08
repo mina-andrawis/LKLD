@@ -7,7 +7,8 @@ TagManager:
   - turn
   - Enemy
   - Chest
-  - BowAndArrow
+  - NewWeaponDialogue
+  - Gun
   layers:
   - Default
   - TransparentFX
