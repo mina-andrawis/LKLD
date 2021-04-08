@@ -17413,7 +17413,7 @@ MonoBehaviour:
   anim: {fileID: 1459199477}
   Player: {fileID: 1996306356}
   Chest: {fileID: 1459199476}
-  Gun: {fileID: 0}
+  Gun: {fileID: 2035536355}
   DialogueBox: {fileID: 1321680508}
   mySpriteResolver: {fileID: 0}
 --- !u!114 &1459199482
