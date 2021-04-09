@@ -64,4 +64,8 @@ public class Bomb : MonoBehaviour
         
         Destroy(gameObject, 1);
     }
+    
+    void OnBecameInvisible() {
+         Destroy(gameObject);
+     }
 }

@@ -7,6 +7,7 @@ TagManager:
   - turn
   - Enemy
   - Potion
+  - Blocks
   layers:
   - Default
   - TransparentFX
