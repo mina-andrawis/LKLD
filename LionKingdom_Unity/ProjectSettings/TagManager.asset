@@ -67,3 +67,6 @@ TagManager:
   - name: Enemy
     uniqueID: 1075948243
     locked: 0
+  - name: BlackOutSqaure
+    uniqueID: 732259491
+    locked: 0
