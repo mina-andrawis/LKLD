@@ -3097,8 +3097,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 349718620}
-  healthPotion: {fileID: 0}
-  dropPoint: {fileID: 0}
   maxHealth: 100
   healthBar: {fileID: 1589004447}
 --- !u!114 &349718617
@@ -4142,8 +4140,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 484026234}
-  healthPotion: {fileID: 0}
-  dropPoint: {fileID: 0}
   maxHealth: 100
   healthBar: {fileID: 1046432053}
 --- !u!114 &484026231
@@ -13377,8 +13373,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1034980257}
-  healthPotion: {fileID: 0}
-  dropPoint: {fileID: 0}
   maxHealth: 100
   healthBar: {fileID: 729036963}
 --- !u!1 &1036442298
@@ -15688,8 +15682,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1235441200}
-  healthPotion: {fileID: 0}
-  dropPoint: {fileID: 0}
   maxHealth: 100
   healthBar: {fileID: 934867575}
 --- !u!114 &1235441197
@@ -17315,7 +17307,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459199476}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 151.9, y: 48.2, z: 0}
+  m_LocalPosition: {x: 80.5, y: 78.8, z: 0}
   m_LocalScale: {x: 24.38643, y: 24.102356, z: 1}
   m_Children:
   - {fileID: 1321680512}
@@ -17341,7 +17333,7 @@ MonoBehaviour:
   Gun: {fileID: 2035536355}
   DialogueBox: {fileID: 1321680508}
   mySpriteResolver: {fileID: 0}
-  timer: 0
+  isRunning: 0
 --- !u!114 &1459199482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20597,8 +20589,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1709572050}
-  healthPotion: {fileID: 0}
-  dropPoint: {fileID: 0}
   maxHealth: 100
   healthBar: {fileID: 942382389}
 --- !u!114 &1709572047
@@ -22930,8 +22920,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1709572050}
-  healthPotion: {fileID: 0}
-  dropPoint: {fileID: 0}
   maxHealth: 100
   healthBar: {fileID: 815620200}
 --- !u!114 &1891435360
