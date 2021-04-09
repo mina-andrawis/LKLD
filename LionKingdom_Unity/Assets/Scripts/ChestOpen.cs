@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Experimental.U2D.Animation;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChestOpen : MonoBehaviour
 {
@@ -64,11 +65,11 @@ public class ChestOpen : MonoBehaviour
   IEnumerator endLevel()
   {
     isRunning = true;
-    //Print the time of when the function is first called.
-    Debug.Log("Started Coroutine at timestamp : " + Time.time);
-    yield return new WaitForSeconds(5);
-    //After we have waited 5 seconds print the time again.
-    Debug.Log("Finished Coroutine at timestamp : " + Time.time);
+
+    yield return new WaitForSeconds(8);
+
+    SceneManager.LoadScene("SecondLevel");
+
     isRunning = false;
   }
 }
