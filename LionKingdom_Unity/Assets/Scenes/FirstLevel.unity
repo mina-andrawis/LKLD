@@ -3595,7 +3595,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.2
+  m_Radius: 1
 --- !u!114 &349718617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4764,7 +4764,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.2
+  m_Radius: 1
 --- !u!114 &484026231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14247,7 +14247,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.00000011920929, y: 0}
   serializedVersion: 2
-  m_Radius: 1.2
+  m_Radius: 1
 --- !u!50 &1034980255
 Rigidbody2D:
   serializedVersion: 4
@@ -17074,7 +17074,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.2
+  m_Radius: 1
 --- !u!114 &1235441197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21970,7 +21970,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.2
+  m_Radius: 1
 --- !u!114 &1709572047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24212,7 +24212,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.2
+  m_Radius: 1
 --- !u!114 &1891435360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25675,7 +25675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 323693254}
-  arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
+  bulletPrefab: {fileID: 857714317266884511, guid: d8fdf6c3d6b434b9ca03f316bab7d5b5, type: 3}
   animator: {fileID: 1996306364}
 --- !u!114 &1996306366
 MonoBehaviour:
