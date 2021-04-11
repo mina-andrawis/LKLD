@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8693990}
   - component: {fileID: 8693991}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,7 +216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 27445778}
   - component: {fileID: 27445779}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -433,7 +433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 39996228}
   - component: {fileID: 39996229}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -516,7 +516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 43775183}
   - component: {fileID: 43775184}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1000,7 +1000,7 @@ GameObject:
   - component: {fileID: 77609778}
   - component: {fileID: 77609777}
   - component: {fileID: 77609779}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -1125,7 +1125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 109383550}
   - component: {fileID: 109383551}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1208,7 +1208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 110956510}
   - component: {fileID: 110956511}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1291,7 +1291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 145835051}
   - component: {fileID: 145835052}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn4
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -1348,7 +1348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 147049864}
   - component: {fileID: 147049865}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1431,7 +1431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 157832244}
   - component: {fileID: 157832245}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1514,7 +1514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 160783722}
   - component: {fileID: 160783721}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1597,7 +1597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 172757119}
   - component: {fileID: 172757120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1789,7 +1789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 194405922}
   - component: {fileID: 194405923}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1872,7 +1872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 200136416}
   - component: {fileID: 200136417}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1955,7 +1955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 217074232}
   - component: {fileID: 217074233}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-15 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2038,7 +2038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 226250904}
   - component: {fileID: 226250905}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2121,7 +2121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 228847164}
   - component: {fileID: 228847165}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2205,7 +2205,7 @@ GameObject:
   - component: {fileID: 242381846}
   - component: {fileID: 242381848}
   - component: {fileID: 242381847}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2309,7 +2309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260738142}
   - component: {fileID: 260738143}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2392,7 +2392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 263918946}
   - component: {fileID: 263918947}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn0
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -2449,7 +2449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 264835742}
   - component: {fileID: 264835743}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2532,7 +2532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 276073056}
   - component: {fileID: 276073055}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2615,7 +2615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 285785039}
   - component: {fileID: 285785040}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2698,7 +2698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 287897815}
   - component: {fileID: 287897816}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn6
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -2755,7 +2755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 287987154}
   - component: {fileID: 287987155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3098,7 +3098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 318455379}
   - component: {fileID: 318455380}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3211,7 +3211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 325435435}
   - component: {fileID: 325435436}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3369,7 +3369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 347846384}
   - component: {fileID: 347846385}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3452,7 +3452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 348517666}
   - component: {fileID: 348517667}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3536,10 +3536,10 @@ GameObject:
   - component: {fileID: 349718614}
   - component: {fileID: 349718621}
   - component: {fileID: 349718620}
-  - component: {fileID: 349718619}
   - component: {fileID: 349718618}
   - component: {fileID: 349718617}
   - component: {fileID: 349718615}
+  - component: {fileID: 349718616}
   m_Layer: 9
   m_Name: lion3
   m_TagString: Enemy
@@ -3580,6 +3580,22 @@ MonoBehaviour:
   dropPoint: {fileID: 177774929}
   maxHealth: 100
   healthBar: {fileID: 1589004447}
+--- !u!58 &349718616
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349718613}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: aea62b7d883ca4579940455a1cbd8e4d, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.2
 --- !u!114 &349718617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3616,32 +3632,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &349718619
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 349718613}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.23}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3}
-    newSize: {x: 3.6, y: 3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.19, y: 1.91}
-  m_EdgeRadius: 0
 --- !u!95 &349718620
 Animator:
   serializedVersion: 3
@@ -3723,7 +3713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 361403186}
   - component: {fileID: 361403187}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn10
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -3780,7 +3770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 381426432}
   - component: {fileID: 381426433}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3863,7 +3853,7 @@ GameObject:
   m_Component:
   - component: {fileID: 385050152}
   - component: {fileID: 385050153}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn8
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -3920,7 +3910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 387723961}
   - component: {fileID: 387723962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4136,7 +4126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 417246035}
   - component: {fileID: 417246036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4219,7 +4209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 421243530}
   - component: {fileID: 421243531}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4301,7 +4291,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 426868538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Backround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4465,7 +4455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 442278232}
   - component: {fileID: 442278233}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4548,7 +4538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 447467379}
   - component: {fileID: 447467380}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4631,7 +4621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 469635847}
   - component: {fileID: 469635848}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4715,10 +4705,10 @@ GameObject:
   - component: {fileID: 484026228}
   - component: {fileID: 484026235}
   - component: {fileID: 484026234}
-  - component: {fileID: 484026233}
   - component: {fileID: 484026232}
   - component: {fileID: 484026231}
   - component: {fileID: 484026229}
+  - component: {fileID: 484026230}
   m_Layer: 9
   m_Name: lion4
   m_TagString: Enemy
@@ -4759,6 +4749,22 @@ MonoBehaviour:
   dropPoint: {fileID: 842207969}
   maxHealth: 100
   healthBar: {fileID: 1046432053}
+--- !u!58 &484026230
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484026227}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: aea62b7d883ca4579940455a1cbd8e4d, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.2
 --- !u!114 &484026231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4795,32 +4801,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &484026233
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484026227}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.23}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3}
-    newSize: {x: 3.6, y: 3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.19, y: 1.91}
-  m_EdgeRadius: 0
 --- !u!95 &484026234
 Animator:
   serializedVersion: 3
@@ -4902,7 +4882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 491614810}
   - component: {fileID: 491614811}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5060,7 +5040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 504627630}
   - component: {fileID: 504627631}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-03 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5226,7 +5206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 519876978}
   - component: {fileID: 519876979}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5309,7 +5289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 523250691}
   - component: {fileID: 523250692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7728,7 +7708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 547031680}
   - component: {fileID: 547031681}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7811,7 +7791,7 @@ GameObject:
   m_Component:
   - component: {fileID: 549916893}
   - component: {fileID: 549916892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7894,7 +7874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 571580983}
   - component: {fileID: 571580984}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7977,7 +7957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 571850356}
   - component: {fileID: 571850355}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8062,7 +8042,7 @@ GameObject:
   - component: {fileID: 588419590}
   - component: {fileID: 588419589}
   - component: {fileID: 588419588}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8314,7 +8294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 617319735}
   - component: {fileID: 617319736}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8397,7 +8377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 621000277}
   - component: {fileID: 621000278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8510,7 +8490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 646048908}
   - component: {fileID: 646048909}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8593,7 +8573,7 @@ GameObject:
   m_Component:
   - component: {fileID: 656684202}
   - component: {fileID: 656684203}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8676,7 +8656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 658577100}
   - component: {fileID: 658577101}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8759,7 +8739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 676690307}
   - component: {fileID: 676690308}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8842,7 +8822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 677628623}
   - component: {fileID: 677628624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8925,7 +8905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 684160517}
   - component: {fileID: 684160518}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9008,7 +8988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 686734794}
   - component: {fileID: 686734795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9191,7 +9171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 701208986}
   - component: {fileID: 701208985}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9449,7 +9429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705582331}
   - component: {fileID: 705582332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9633,7 +9613,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722307085}
   - component: {fileID: 722307084}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9716,7 +9696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722383827}
   - component: {fileID: 722383826}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DialogueManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10071,7 +10051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 751050368}
   - component: {fileID: 751050369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10154,7 +10134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 757256495}
   - component: {fileID: 757256494}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10237,7 +10217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 759888317}
   - component: {fileID: 759888318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10320,7 +10300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 780599186}
   - component: {fileID: 780599185}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10403,7 +10383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 788347217}
   - component: {fileID: 788347218}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10565,7 +10545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 800475460}
   - component: {fileID: 800475459}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10723,7 +10703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 810002844}
   - component: {fileID: 810002845}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10806,7 +10786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 814790036}
   - component: {fileID: 814790037}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11118,7 +11098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 834741992}
   - component: {fileID: 834741991}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11201,7 +11181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 838489116}
   - component: {fileID: 838489115}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11314,7 +11294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 848766727}
   - component: {fileID: 848766728}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11397,7 +11377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 862510251}
   - component: {fileID: 862510252}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11480,7 +11460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 863188235}
   - component: {fileID: 863188236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11563,7 +11543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 864678687}
   - component: {fileID: 864678688}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11646,7 +11626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 868025545}
   - component: {fileID: 868025546}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11729,7 +11709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 873532082}
   - component: {fileID: 873532083}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11917,7 +11897,7 @@ GameObject:
   m_Component:
   - component: {fileID: 891854595}
   - component: {fileID: 891854594}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12000,7 +11980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 894111631}
   - component: {fileID: 894111632}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12161,7 +12141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 896727570}
   - component: {fileID: 896727569}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12245,7 +12225,7 @@ GameObject:
   - component: {fileID: 900969003}
   - component: {fileID: 900969005}
   - component: {fileID: 900969004}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12331,7 +12311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 913845703}
   - component: {fileID: 913845704}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12623,7 +12603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 941892283}
   - component: {fileID: 941892284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12840,7 +12820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 945246113}
   - component: {fileID: 945246114}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12923,7 +12903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 946261121}
   - component: {fileID: 946261122}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn9
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -12980,7 +12960,7 @@ GameObject:
   m_Component:
   - component: {fileID: 952078850}
   - component: {fileID: 952078849}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13063,7 +13043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 962548508}
   - component: {fileID: 962548509}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13146,7 +13126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 963979398}
   - component: {fileID: 963979399}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13231,7 +13211,7 @@ GameObject:
   - component: {fileID: 968822560}
   - component: {fileID: 968822559}
   - component: {fileID: 968822558}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13329,7 +13309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 968842923}
   - component: {fileID: 968842924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13412,7 +13392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 969504660}
   - component: {fileID: 969504661}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13495,7 +13475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 975104365}
   - component: {fileID: 975104366}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13578,7 +13558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 978309312}
   - component: {fileID: 978309313}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13661,7 +13641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 988836054}
   - component: {fileID: 988836055}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13744,7 +13724,7 @@ GameObject:
   m_Component:
   - component: {fileID: 990698632}
   - component: {fileID: 990698633}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-02 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13827,7 +13807,7 @@ GameObject:
   m_Component:
   - component: {fileID: 991134167}
   - component: {fileID: 991134166}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13991,7 +13971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1029354033}
   - component: {fileID: 1029354032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14074,7 +14054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1029950112}
   - component: {fileID: 1029950113}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14157,7 +14137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030919127}
   - component: {fileID: 1030919126}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14241,10 +14221,10 @@ GameObject:
   - component: {fileID: 1034980259}
   - component: {fileID: 1034980258}
   - component: {fileID: 1034980257}
-  - component: {fileID: 1034980256}
   - component: {fileID: 1034980255}
-  - component: {fileID: 1034980254}
   - component: {fileID: 1034980261}
+  - component: {fileID: 1034980254}
+  - component: {fileID: 1034980256}
   m_Layer: 9
   m_Name: lion1
   m_TagString: Enemy
@@ -14252,21 +14232,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1034980254
-MonoBehaviour:
+--- !u!58 &1034980254
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034980253}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  moveRight: 0
-  animator: {fileID: 1034980257}
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: aea62b7d883ca4579940455a1cbd8e4d, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00000011920929, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.2
 --- !u!50 &1034980255
 Rigidbody2D:
   serializedVersion: 4
@@ -14288,32 +14269,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &1034980256
-BoxCollider2D:
+--- !u!114 &1034980256
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034980253}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.23}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3}
-    newSize: {x: 3.6, y: 3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.19, y: 1.91}
-  m_EdgeRadius: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  moveRight: 0
+  animator: {fileID: 1034980257}
 --- !u!95 &1034980257
 Animator:
   serializedVersion: 3
@@ -14428,7 +14398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1036442299}
   - component: {fileID: 1036442300}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14511,7 +14481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1041272378}
   - component: {fileID: 1041272379}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14828,7 +14798,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1057427322}
   - component: {fileID: 1057427323}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14986,7 +14956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1075241848}
   - component: {fileID: 1075241849}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15069,7 +15039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1077790194}
   - component: {fileID: 1077790195}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn7
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -15232,7 +15202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1089432217}
   - component: {fileID: 1089432218}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15315,7 +15285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1113204396}
   - component: {fileID: 1113204397}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15398,7 +15368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1113676807}
   - component: {fileID: 1113676808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15481,7 +15451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1117026977}
   - component: {fileID: 1117026978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15564,7 +15534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1132207043}
   - component: {fileID: 1132207044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15647,7 +15617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1132855527}
   - component: {fileID: 1132855526}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15760,7 +15730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1147914642}
   - component: {fileID: 1147914643}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15843,7 +15813,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1152600297}
   - component: {fileID: 1152600298}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15926,7 +15896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1158271045}
   - component: {fileID: 1158271046}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16009,7 +15979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1160940472}
   - component: {fileID: 1160940471}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16092,7 +16062,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1161602884}
   - component: {fileID: 1161602885}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16175,7 +16145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1164568890}
   - component: {fileID: 1164568891}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16506,7 +16476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1176230976}
   - component: {fileID: 1176230977}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16589,7 +16559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1189109719}
   - component: {fileID: 1189109718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16723,7 +16693,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1191860291}
   - component: {fileID: 1191860292}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16805,7 +16775,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1194530094}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16848,7 +16818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1210606454}
   - component: {fileID: 1210606455}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16961,7 +16931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1229312220}
   - component: {fileID: 1229312219}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17045,10 +17015,10 @@ GameObject:
   - component: {fileID: 1235441194}
   - component: {fileID: 1235441201}
   - component: {fileID: 1235441200}
-  - component: {fileID: 1235441199}
   - component: {fileID: 1235441198}
   - component: {fileID: 1235441197}
   - component: {fileID: 1235441195}
+  - component: {fileID: 1235441196}
   m_Layer: 9
   m_Name: lion2
   m_TagString: Enemy
@@ -17089,6 +17059,22 @@ MonoBehaviour:
   dropPoint: {fileID: 256229674}
   maxHealth: 100
   healthBar: {fileID: 934867575}
+--- !u!58 &1235441196
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235441193}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: aea62b7d883ca4579940455a1cbd8e4d, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.2
 --- !u!114 &1235441197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17125,32 +17111,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &1235441199
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1235441193}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.23}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3}
-    newSize: {x: 3.6, y: 3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.19, y: 1.91}
-  m_EdgeRadius: 0
 --- !u!95 &1235441200
 Animator:
   serializedVersion: 3
@@ -17311,7 +17271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1242284752}
   - component: {fileID: 1242284753}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-15 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17469,7 +17429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1267314237}
   - component: {fileID: 1267314238}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17552,7 +17512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1272467157}
   - component: {fileID: 1272467158}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17635,7 +17595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1281572468}
   - component: {fileID: 1281572469}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17718,7 +17678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1290333825}
   - component: {fileID: 1290333826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17801,7 +17761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1301863878}
   - component: {fileID: 1301863879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17920,7 +17880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1370696460}
   - component: {fileID: 1370696461}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18003,7 +17963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1374469985}
   - component: {fileID: 1374469986}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18086,7 +18046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1375196803}
   - component: {fileID: 1375196804}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn2
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -18144,7 +18104,7 @@ GameObject:
   - component: {fileID: 1408915304}
   - component: {fileID: 1408915303}
   - component: {fileID: 1408915305}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18246,7 +18206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1411157177}
   - component: {fileID: 1411157178}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18329,7 +18289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1431516438}
   - component: {fileID: 1431516439}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18412,7 +18372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1440866085}
   - component: {fileID: 1440866086}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18590,7 +18550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1461650792}
   - component: {fileID: 1461650793}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18673,7 +18633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1463593067}
   - component: {fileID: 1463593068}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18756,7 +18716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1464827498}
   - component: {fileID: 1464827499}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18839,7 +18799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472569612}
   - component: {fileID: 1472569613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18921,7 +18881,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1478576469}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19003,7 +18963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1484400319}
   - component: {fileID: 1484400320}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19219,7 +19179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1519045440}
   - component: {fileID: 1519045441}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19332,7 +19292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1527002595}
   - component: {fileID: 1527002596}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19542,7 +19502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1548842913}
   - component: {fileID: 1548842914}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn1
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -19599,7 +19559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1551228565}
   - component: {fileID: 1551228566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19683,7 +19643,7 @@ GameObject:
   - component: {fileID: 1558023134}
   - component: {fileID: 1558023136}
   - component: {fileID: 1558023135}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Health bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19816,7 +19776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573903539}
   - component: {fileID: 1573903540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-03 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20241,7 +20201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1606083893}
   - component: {fileID: 1606083894}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn11
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -20298,7 +20258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1619149778}
   - component: {fileID: 1619149779}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20381,7 +20341,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1626603215}
   - component: {fileID: 1626603216}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20464,7 +20424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637612186}
   - component: {fileID: 1637612185}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20547,7 +20507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1642581430}
   - component: {fileID: 1642581431}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20630,7 +20590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1644726772}
   - component: {fileID: 1644726773}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20713,7 +20673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1647238135}
   - component: {fileID: 1647238136}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20796,7 +20756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1648261725}
   - component: {fileID: 1648261726}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20879,7 +20839,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1668927589}
   - component: {fileID: 1668927590}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20962,7 +20922,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1676776859}
   - component: {fileID: 1676776858}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21045,7 +21005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1677445916}
   - component: {fileID: 1677445917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21128,7 +21088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1679912034}
   - component: {fileID: 1679912035}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21211,7 +21171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1680282222}
   - component: {fileID: 1680282221}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21294,7 +21254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1687449384}
   - component: {fileID: 1687449385}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21377,7 +21337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1689075368}
   - component: {fileID: 1689075369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21460,7 +21420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1698181630}
   - component: {fileID: 1698181631}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-03 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21543,7 +21503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1698688579}
   - component: {fileID: 1698688580}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21626,7 +21586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1700579003}
   - component: {fileID: 1700579004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21709,7 +21669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1702483157}
   - component: {fileID: 1702483158}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21867,7 +21827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1705840670}
   - component: {fileID: 1705840671}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21951,10 +21911,10 @@ GameObject:
   - component: {fileID: 1709572044}
   - component: {fileID: 1709572051}
   - component: {fileID: 1709572050}
-  - component: {fileID: 1709572049}
   - component: {fileID: 1709572048}
   - component: {fileID: 1709572047}
   - component: {fileID: 1709572045}
+  - component: {fileID: 1709572046}
   m_Layer: 9
   m_Name: lion6
   m_TagString: Enemy
@@ -21995,6 +21955,22 @@ MonoBehaviour:
   dropPoint: {fileID: 885431182}
   maxHealth: 100
   healthBar: {fileID: 942382389}
+--- !u!58 &1709572046
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709572043}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: aea62b7d883ca4579940455a1cbd8e4d, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.2
 --- !u!114 &1709572047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22031,32 +22007,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &1709572049
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709572043}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.23}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3}
-    newSize: {x: 3.6, y: 3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.19, y: 1.91}
-  m_EdgeRadius: 0
 --- !u!95 &1709572050
 Animator:
   serializedVersion: 3
@@ -22138,7 +22088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1714931994}
   - component: {fileID: 1714931995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22221,7 +22171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1716485797}
   - component: {fileID: 1716485798}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22304,7 +22254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1719861727}
   - component: {fileID: 1719861728}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22387,7 +22337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1765527399}
   - component: {fileID: 1765527398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22470,7 +22420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1766789378}
   - component: {fileID: 1766789379}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn3
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -22527,7 +22477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1773398059}
   - component: {fileID: 1773398060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22610,7 +22560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1792519877}
   - component: {fileID: 1792519878}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22693,7 +22643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1796943109}
   - component: {fileID: 1796943110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22776,7 +22726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1799318226}
   - component: {fileID: 1799318227}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23195,7 +23145,7 @@ GameObject:
   - component: {fileID: 1813845795}
   - component: {fileID: 1813845794}
   - component: {fileID: 1813845796}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: CM vcam1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23280,7 +23230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1817148769}
   - component: {fileID: 1817148770}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23363,7 +23313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1831402671}
   - component: {fileID: 1831402672}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23446,7 +23396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1835966568}
   - component: {fileID: 1835966569}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23604,7 +23554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1855877956}
   - component: {fileID: 1855877957}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23787,7 +23737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1858061207}
   - component: {fileID: 1858061208}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23870,7 +23820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1870401524}
   - component: {fileID: 1870401525}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23953,7 +23903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1873216568}
   - component: {fileID: 1873216569}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24036,7 +23986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1881724733}
   - component: {fileID: 1881724734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24119,7 +24069,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1884353755}
   - component: {fileID: 1884353756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24203,10 +24153,10 @@ GameObject:
   - component: {fileID: 1891435357}
   - component: {fileID: 1891435364}
   - component: {fileID: 1891435363}
-  - component: {fileID: 1891435362}
   - component: {fileID: 1891435361}
   - component: {fileID: 1891435360}
   - component: {fileID: 1891435358}
+  - component: {fileID: 1891435359}
   m_Layer: 9
   m_Name: lion5
   m_TagString: Enemy
@@ -24247,6 +24197,22 @@ MonoBehaviour:
   dropPoint: {fileID: 1146910652}
   maxHealth: 100
   healthBar: {fileID: 815620200}
+--- !u!58 &1891435359
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891435356}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: aea62b7d883ca4579940455a1cbd8e4d, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.2
 --- !u!114 &1891435360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24283,32 +24249,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &1891435362
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1891435356}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.23}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3}
-    newSize: {x: 3.6, y: 3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.19, y: 1.91}
-  m_EdgeRadius: 0
 --- !u!95 &1891435363
 Animator:
   serializedVersion: 3
@@ -24390,7 +24330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1895690602}
   - component: {fileID: 1895690603}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24629,7 +24569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1913976989}
   - component: {fileID: 1913976990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-03 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24711,7 +24651,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1932568328}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24748,7 +24688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1936239497}
   - component: {fileID: 1936239498}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24831,7 +24771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1939953430}
   - component: {fileID: 1939953431}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24914,7 +24854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1952674345}
   - component: {fileID: 1952674346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24997,7 +24937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1954386803}
   - component: {fileID: 1954386804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-03 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25080,7 +25020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1955849028}
   - component: {fileID: 1955849029}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25163,7 +25103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1959769173}
   - component: {fileID: 1959769174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25246,7 +25186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1966068333}
   - component: {fileID: 1966068334}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25330,7 +25270,7 @@ GameObject:
   - component: {fileID: 1979148735}
   - component: {fileID: 1979148737}
   - component: {fileID: 1979148736}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25404,7 +25344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1992810440}
   - component: {fileID: 1992810441}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25799,7 +25739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1996393349}
   - component: {fileID: 1996393350}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25882,7 +25822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2000115842}
   - component: {fileID: 2000115843}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26226,7 +26166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013862878}
   - component: {fileID: 2013862879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26309,7 +26249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2018992338}
   - component: {fileID: 2018992339}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-15 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26492,7 +26432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2030879424}
   - component: {fileID: 2030879425}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26575,7 +26515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2034310445}
   - component: {fileID: 2034310446}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26658,7 +26598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2034997747}
   - component: {fileID: 2034997748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26741,7 +26681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2045822728}
   - component: {fileID: 2045822729}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn5
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -26798,7 +26738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2046361837}
   - component: {fileID: 2046361838}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26881,7 +26821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2049361157}
   - component: {fileID: 2049361158}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26964,7 +26904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2049856105}
   - component: {fileID: 2049856106}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27047,7 +26987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2056625135}
   - component: {fileID: 2056625136}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27130,7 +27070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2062203145}
   - component: {fileID: 2062203146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27213,7 +27153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2064152277}
   - component: {fileID: 2064152278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27296,7 +27236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2074276121}
   - component: {fileID: 2074276122}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27445,7 +27385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2119930096}
   - component: {fileID: 2119930097}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27528,7 +27468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2125499707}
   - component: {fileID: 2125499708}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
