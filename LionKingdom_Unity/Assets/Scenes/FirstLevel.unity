@@ -5146,7 +5146,7 @@ GameObject:
   - component: {fileID: 512533461}
   m_Layer: 0
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5398,7 +5398,7 @@ GameObject:
   - component: {fileID: 534634396}
   m_Layer: 0
   m_Name: GroundTiles
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

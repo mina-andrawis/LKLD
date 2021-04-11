@@ -43,10 +43,13 @@ public class Arrow : MonoBehaviour
 
         // add check for if arrow goes off the current visible camera screen,
         // then destroy the arrow
-        else{
-            return;
+        else if(collision.CompareTag("Blocks"))
+        {
+            Destroy(gameObject);
         }
-
-
     }
+    
+    void OnBecameInvisible() {
+         Destroy(gameObject);
+     }
 }
