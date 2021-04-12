@@ -5,7 +5,7 @@ using UnityEngine;
 public class Weapon : MonoBehaviour
 {
     public Transform firePoint;
-    public GameObject arrowPrefab;
+    public GameObject bulletPrefab;
     public Animator animator;
 
     float FireRate = 1;
@@ -28,6 +28,6 @@ public class Weapon : MonoBehaviour
     void Shoot()
     {
         // shooting logic
-        Instantiate(arrowPrefab, firePoint.position, firePoint.rotation);
+        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
 }

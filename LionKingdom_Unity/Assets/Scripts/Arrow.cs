@@ -8,41 +8,29 @@ public class Arrow : MonoBehaviour
     public float speed = 20;
     public Rigidbody2D rb;
 
-
+    PlayerMovement target;
+    PlayerHealth health;
+    Vector2 moveDirection;
+    
     // Start is called before the first frame update
     void Start()
     {
-        // fires at set speed
-        rb.velocity = transform.right * speed;
+        rb = GetComponent<Rigidbody2D>();
+        target = GameObject.FindObjectOfType<PlayerMovement>();
+        health = GameObject.FindObjectOfType<PlayerHealth>();
+        moveDirection = (target.transform.position - transform.position).normalized * speed;
+        rb.velocity = new Vector2(moveDirection.x, moveDirection.y);
+        Destroy(gameObject, 3f);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //
-        if (collision.GetComponent<Enemy>())
+        if(collision.gameObject.name.Equals("Player"))
         {
-            Debug.Log(collision.name);
-            Enemy enemy = collision.GetComponent<Enemy>();
-
-            // checks if the arrow hit an enemy and deals damage
-            if (enemy != null)
-            {
-                Debug.Log("Damage given: " + damage);
-
-                enemy.TakeDamage(damage);
-            }
-
+            health.TakeDamage(5);
             Destroy(gameObject);
-
         }
-
-        // arrow keeps going
-
-        // add a check for if arrow hits something that isn't the background
-        // like a wall or platform, then just destroy the arrow
-
-        // add check for if arrow goes off the current visible camera screen,
-        // then destroy the arrow
+        
         else if(collision.CompareTag("Blocks"))
         {
             Destroy(gameObject);
