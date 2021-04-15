@@ -2,17 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class FadeObject : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    private bool mFaded = false;
+
+    
+
+    public float Duration = 0.4f;
+
+
+    public void Fade()
     {
-        
+        var canvGroup = GetComponent<CanvasGroup>();
+
+        StartCoroutine(DoFade(canvGroup, canvGroup.alpha, mFaded ? 0 : 1));
+        mFaded = !mFaded;
     }
 
-    // Update is called once per frame
-    void Update()
+    public IEnumerator DoFade(CanvasGroup canvGroup, float start, float end)
     {
-        
+        float counter = 0f;
+
+        while (counter < Duration)
+        {
+            counter += Time.deltaTime;
+            canvGroup.alpha = Mathf.Lerp(start, end, counter / Duration);
+
+            yield return null;
+        }
+
     }
 }

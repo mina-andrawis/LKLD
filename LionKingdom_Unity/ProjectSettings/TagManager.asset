@@ -6,9 +6,12 @@ TagManager:
   tags:
   - turn
   - Enemy
-  - Chest
+  - Potion
+  - Blocks
   - NewWeaponDialogue
+  - Chest
   - Gun
+  - Blackout
   layers:
   - Default
   - TransparentFX
@@ -18,10 +21,10 @@ TagManager:
   - UI
   - Player
   - Bounds
-  - testing
+  - Ground
   - Enemies
-  - 
-  - 
+  - Turns
+  - Cameras
   - 
   - 
   - 
@@ -67,6 +70,6 @@ TagManager:
   - name: Enemy
     uniqueID: 1075948243
     locked: 0
-  - name: BlackOutSqaure
-    uniqueID: 732259491
+  - name: Blackout
+    uniqueID: 3377275303
     locked: 0
