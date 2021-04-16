@@ -20,9 +20,6 @@ public class ChestOpen : MonoBehaviour
 
     public bool isRunning;
 
-    public FadeObject blackBox;
-
-
     //retrieve spriteLibrary that the SpriteResolver is resolving from
     public SpriteLibrary spriteLibrary { get; }
 
@@ -40,15 +37,16 @@ public class ChestOpen : MonoBehaviour
 
         isRunning = false;
 
+
     }
 
     private void Update()
     {
         radius = Vector3.Distance(Player.transform.position, Chest.transform.position);
         //Debug.Log(radius);
-        if (radius < 60f)
+        if (radius <60f)
         {
-            GetComponent<Animator>().SetBool("isOpen", true);
+            GetComponent<Animator>().SetBool("isOpen",true);
             Gun.SetActive(true);   //make visible
             DialogueBox.SetActive(true);   //make visible
 
@@ -56,27 +54,22 @@ public class ChestOpen : MonoBehaviour
 
             if (!isRunning)
             {
-                StartCoroutine(endLevel());
+              StartCoroutine(endLevel());
             }
 
 
         }
-}
-
-    //wait 8 seconds before fading to black and starting next level
-    IEnumerator endLevel()
-    {
-        isRunning = true;
-
-        yield return new WaitForSeconds(8);
-        blackBox.Fade();
-        yield return new WaitForSeconds(3);
-        SceneManager.LoadScene("SecondLevel");
-
-        isRunning = false;
     }
 
+  //wait 5 seconds before fading to black and starting next level
+  IEnumerator endLevel()
+  {
+    isRunning = true;
 
+    yield return new WaitForSeconds(8);
 
+    SceneManager.LoadScene("SecondLevel");
 
+    isRunning = false;
+  }
 }
