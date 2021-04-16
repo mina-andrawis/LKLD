@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8693990}
   - component: {fileID: 8693991}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,7 +216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 27445778}
   - component: {fileID: 27445779}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -433,7 +433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 39996228}
   - component: {fileID: 39996229}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -516,7 +516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 43775183}
   - component: {fileID: 43775184}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -716,6 +716,216 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48791699}
   m_CullTransparentMesh: 1
+--- !u!1 &67580624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 67580628}
+  - component: {fileID: 67580627}
+  - component: {fileID: 67580626}
+  - component: {fileID: 67580625}
+  - component: {fileID: 67580629}
+  m_Layer: 5
+  m_Name: Pause
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &67580625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67580624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &67580626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67580624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &67580627
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67580624}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 1
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &67580628
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67580624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 894114614}
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &67580629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67580624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883ac8a6522f541309f8971fa411a698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 894114613}
+  mainMenuUI: {fileID: 1166832253}
+--- !u!1 &68901612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 68901613}
+  - component: {fileID: 68901616}
+  - component: {fileID: 68901615}
+  - component: {fileID: 68901614}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &68901613
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68901612}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1485003741}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &68901614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68901612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
+--- !u!114 &68901615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68901612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: MENU
+--- !u!222 &68901616
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68901612}
+  m_CullTransparentMesh: 1
 --- !u!1 &72695413
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,7 +1000,7 @@ GameObject:
   - component: {fileID: 77609778}
   - component: {fileID: 77609777}
   - component: {fileID: 77609779}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -898,7 +1108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77609776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -60.82489, y: 89.22684, z: -10}
+  m_LocalPosition: {x: -25.0002, y: 89.22047, z: -10}
   m_LocalScale: {x: 2, y: 3, z: 1}
   m_Children:
   - {fileID: 968822557}
@@ -915,7 +1125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 109383550}
   - component: {fileID: 109383551}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -998,7 +1208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 110956510}
   - component: {fileID: 110956511}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1081,7 +1291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 145835051}
   - component: {fileID: 145835052}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn4
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -1138,7 +1348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 147049864}
   - component: {fileID: 147049865}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1221,7 +1431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 157832244}
   - component: {fileID: 157832245}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1304,7 +1514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 160783722}
   - component: {fileID: 160783721}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1387,7 +1597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 172757119}
   - component: {fileID: 172757120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1460,6 +1670,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &177774928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 177774929}
+  m_Layer: 9
+  m_Name: DropPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &177774929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177774928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.205, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 349718614}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &182260447
 GameObject:
   m_ObjectHideFlags: 0
@@ -1549,7 +1789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 194405922}
   - component: {fileID: 194405923}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1632,7 +1872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 200136416}
   - component: {fileID: 200136417}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1715,7 +1955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 217074232}
   - component: {fileID: 217074233}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-15 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1798,7 +2038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 226250904}
   - component: {fileID: 226250905}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1881,7 +2121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 228847164}
   - component: {fileID: 228847165}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1965,7 +2205,7 @@ GameObject:
   - component: {fileID: 242381846}
   - component: {fileID: 242381848}
   - component: {fileID: 242381847}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2029,6 +2269,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 242381845}
   m_CullTransparentMesh: 1
+--- !u!1 &256229673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 256229674}
+  m_Layer: 9
+  m_Name: DropPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &256229674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256229673}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.191, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1235441194}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &260738141
 GameObject:
   m_ObjectHideFlags: 0
@@ -2039,7 +2309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260738142}
   - component: {fileID: 260738143}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2122,7 +2392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 263918946}
   - component: {fileID: 263918947}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn0
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -2179,7 +2449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 264835742}
   - component: {fileID: 264835743}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2262,7 +2532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 276073056}
   - component: {fileID: 276073055}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2345,7 +2615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 285785039}
   - component: {fileID: 285785040}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2428,7 +2698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 287897815}
   - component: {fileID: 287897816}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn6
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -2485,7 +2755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 287987154}
   - component: {fileID: 287987155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2685,6 +2955,139 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290358377}
   m_CullTransparentMesh: 1
+--- !u!1 &301517163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 301517164}
+  - component: {fileID: 301517167}
+  - component: {fileID: 301517166}
+  - component: {fileID: 301517165}
+  m_Layer: 5
+  m_Name: Quit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &301517164
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301517163}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2.5, z: 1}
+  m_Children:
+  - {fileID: 818116563}
+  m_Father: {fileID: 894114614}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 25.3}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &301517165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301517163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.21176471}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5372549}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.7372549}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 301517166}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 67580629}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &301517166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301517163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &301517167
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301517163}
+  m_CullTransparentMesh: 0
 --- !u!1 &318455378
 GameObject:
   m_ObjectHideFlags: 0
@@ -2695,7 +3098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 318455379}
   - component: {fileID: 318455380}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2808,7 +3211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 325435435}
   - component: {fileID: 325435436}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2881,6 +3284,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &328109713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 328109714}
+  - component: {fileID: 328109716}
+  - component: {fileID: 328109715}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &328109714
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328109713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1166832258}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &328109715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328109713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.69411767}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &328109716
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328109713}
+  m_CullTransparentMesh: 1
 --- !u!1 &347846383
 GameObject:
   m_ObjectHideFlags: 0
@@ -2891,7 +3369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 347846384}
   - component: {fileID: 347846385}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2974,7 +3452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 348517666}
   - component: {fileID: 348517667}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3058,10 +3536,11 @@ GameObject:
   - component: {fileID: 349718614}
   - component: {fileID: 349718621}
   - component: {fileID: 349718620}
-  - component: {fileID: 349718619}
   - component: {fileID: 349718618}
   - component: {fileID: 349718617}
   - component: {fileID: 349718615}
+  - component: {fileID: 349718616}
+  - component: {fileID: 349718619}
   m_Layer: 9
   m_Name: lion3
   m_TagString: Enemy
@@ -3081,6 +3560,7 @@ Transform:
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 2029724031}
+  - {fileID: 177774929}
   m_Father: {fileID: 1312209670}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3097,8 +3577,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 349718620}
+  healthPotion: {fileID: 3492534353877029058, guid: d69983e36d67a437eba856ef527ae7f8, type: 3}
+  dropPoint: {fileID: 177774929}
   maxHealth: 100
   healthBar: {fileID: 1589004447}
+--- !u!58 &349718616
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349718613}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: aea62b7d883ca4579940455a1cbd8e4d, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
 --- !u!114 &349718617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3135,32 +3633,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &349718619
-BoxCollider2D:
+--- !u!114 &349718619
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349718613}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.23}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3}
-    newSize: {x: 3.6, y: 3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.19, y: 1.91}
-  m_EdgeRadius: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
+  fireRate: 0
+  nextFire: 0
 --- !u!95 &349718620
 Animator:
   serializedVersion: 3
@@ -3242,7 +3729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 361403186}
   - component: {fileID: 361403187}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn10
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -3299,7 +3786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 381426432}
   - component: {fileID: 381426433}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3382,7 +3869,7 @@ GameObject:
   m_Component:
   - component: {fileID: 385050152}
   - component: {fileID: 385050153}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn8
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -3439,7 +3926,7 @@ GameObject:
   m_Component:
   - component: {fileID: 387723961}
   - component: {fileID: 387723962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3512,6 +3999,139 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &397335435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 397335436}
+  - component: {fileID: 397335439}
+  - component: {fileID: 397335438}
+  - component: {fileID: 397335437}
+  m_Layer: 5
+  m_Name: Resume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &397335436
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397335435}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2.5, z: 1}
+  m_Children:
+  - {fileID: 1450987840}
+  m_Father: {fileID: 894114614}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 179}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &397335437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397335435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.21176471}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5372549}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.7372549}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 397335438}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 67580629}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: Resume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &397335438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397335435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &397335439
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397335435}
+  m_CullTransparentMesh: 0
 --- !u!1 &417246034
 GameObject:
   m_ObjectHideFlags: 0
@@ -3522,7 +4142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 417246035}
   - component: {fileID: 417246036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3605,7 +4225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 421243530}
   - component: {fileID: 421243531}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3687,7 +4307,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 426868538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Backround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3851,7 +4471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 442278232}
   - component: {fileID: 442278233}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3934,7 +4554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 447467379}
   - component: {fileID: 447467380}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4017,7 +4637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 469635847}
   - component: {fileID: 469635848}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4101,10 +4721,10 @@ GameObject:
   - component: {fileID: 484026228}
   - component: {fileID: 484026235}
   - component: {fileID: 484026234}
-  - component: {fileID: 484026233}
   - component: {fileID: 484026232}
   - component: {fileID: 484026231}
   - component: {fileID: 484026229}
+  - component: {fileID: 484026230}
   m_Layer: 9
   m_Name: lion4
   m_TagString: Enemy
@@ -4124,6 +4744,7 @@ Transform:
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 704890006}
+  - {fileID: 842207969}
   m_Father: {fileID: 1312209670}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4140,8 +4761,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 484026234}
+  healthPotion: {fileID: 3492534353877029058, guid: d69983e36d67a437eba856ef527ae7f8, type: 3}
+  dropPoint: {fileID: 842207969}
   maxHealth: 100
   healthBar: {fileID: 1046432053}
+--- !u!58 &484026230
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484026227}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: aea62b7d883ca4579940455a1cbd8e4d, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
 --- !u!114 &484026231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4178,32 +4817,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &484026233
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484026227}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.23}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3}
-    newSize: {x: 3.6, y: 3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.19, y: 1.91}
-  m_EdgeRadius: 0
 --- !u!95 &484026234
 Animator:
   serializedVersion: 3
@@ -4285,7 +4898,7 @@ GameObject:
   m_Component:
   - component: {fileID: 491614810}
   - component: {fileID: 491614811}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4443,7 +5056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 504627630}
   - component: {fileID: 504627631}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-03 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4529,7 +5142,7 @@ GameObject:
   - component: {fileID: 512533461}
   m_Layer: 0
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4609,7 +5222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 519876978}
   - component: {fileID: 519876979}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4692,7 +5305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 523250691}
   - component: {fileID: 523250692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4781,7 +5394,7 @@ GameObject:
   - component: {fileID: 534634396}
   m_Layer: 0
   m_Name: GroundTiles
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4820,7 +5433,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 559972f6a3d936d4ab92cb51d8cae854, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6578,6 +7191,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 669, y: -19, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 112, y: -18, z: 0}
     second:
       serializedVersion: 2
@@ -6638,7 +7261,27 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 669, y: -16, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 182, y: -13, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 669, y: -13, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 5
@@ -6920,7 +7563,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 202
+  - m_RefCount: 205
     m_Data: {fileID: 11400000, guid: c55ba3e46f6c94b4fb382bcbd1af68ec, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 903454d2529494f56ad3cf1a72d31da2, type: 2}
@@ -6935,12 +7578,12 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 202
+  - m_RefCount: 205
     m_Data: {fileID: 21300000, guid: 043e06644078a694580a86ffbd77555d, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 21300000, guid: d9b8dfbb10ebedb4d98a0b24268523c2, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 205
+  - m_RefCount: 208
     m_Data:
       e00: 1
       e01: 0
@@ -6977,7 +7620,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 205
+  - m_RefCount: 208
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -7081,7 +7724,7 @@ GameObject:
   m_Component:
   - component: {fileID: 547031680}
   - component: {fileID: 547031681}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7164,7 +7807,7 @@ GameObject:
   m_Component:
   - component: {fileID: 549916893}
   - component: {fileID: 549916892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7247,7 +7890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 571580983}
   - component: {fileID: 571580984}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7330,7 +7973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 571850356}
   - component: {fileID: 571850355}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7415,7 +8058,7 @@ GameObject:
   - component: {fileID: 588419590}
   - component: {fileID: 588419589}
   - component: {fileID: 588419588}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7667,7 +8310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 617319735}
   - component: {fileID: 617319736}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7750,7 +8393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 621000277}
   - component: {fileID: 621000278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7863,7 +8506,7 @@ GameObject:
   m_Component:
   - component: {fileID: 646048908}
   - component: {fileID: 646048909}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7946,7 +8589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 656684202}
   - component: {fileID: 656684203}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8029,7 +8672,7 @@ GameObject:
   m_Component:
   - component: {fileID: 658577100}
   - component: {fileID: 658577101}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8112,7 +8755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 676690307}
   - component: {fileID: 676690308}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8195,7 +8838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 677628623}
   - component: {fileID: 677628624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8278,7 +8921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 684160517}
   - component: {fileID: 684160518}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8361,7 +9004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 686734794}
   - component: {fileID: 686734795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8544,7 +9187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 701208986}
   - component: {fileID: 701208985}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8802,7 +9445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705582331}
   - component: {fileID: 705582332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8986,7 +9629,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722307085}
   - component: {fileID: 722307084}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9069,7 +9712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722383827}
   - component: {fileID: 722383826}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DialogueManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9424,7 +10067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 751050368}
   - component: {fileID: 751050369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9507,7 +10150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 757256495}
   - component: {fileID: 757256494}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9590,7 +10233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 759888317}
   - component: {fileID: 759888318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9673,7 +10316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 780599186}
   - component: {fileID: 780599185}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9756,7 +10399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 788347217}
   - component: {fileID: 788347218}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9829,6 +10472,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &791837162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 791837163}
+  - component: {fileID: 791837165}
+  - component: {fileID: 791837164}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &791837163
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791837162}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.6397504, y: 1.8638437, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1577312245}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.8}
+  m_AnchoredPosition: {x: 0, y: 3}
+  m_SizeDelta: {x: 0, y: 6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &791837164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791837162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 18
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 120
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: PLAY
+--- !u!222 &791837165
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791837162}
+  m_CullTransparentMesh: 1
 --- !u!1 &800475458
 GameObject:
   m_ObjectHideFlags: 0
@@ -9839,7 +10561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 800475460}
   - component: {fileID: 800475459}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9997,7 +10719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 810002844}
   - component: {fileID: 810002845}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10080,7 +10802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 814790036}
   - component: {fileID: 814790037}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10287,6 +11009,101 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &818116562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 818116563}
+  - component: {fileID: 818116566}
+  - component: {fileID: 818116565}
+  - component: {fileID: 818116564}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &818116563
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818116562}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 301517164}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &818116564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818116562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
+--- !u!114 &818116565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818116562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 112
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: QUIT
+--- !u!222 &818116566
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818116562}
+  m_CullTransparentMesh: 1
 --- !u!1 &834741990
 GameObject:
   m_ObjectHideFlags: 0
@@ -10297,7 +11114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 834741992}
   - component: {fileID: 834741991}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10380,7 +11197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 838489116}
   - component: {fileID: 838489115}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10453,6 +11270,36 @@ Transform:
   m_Father: {fileID: 1478576469}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &842207968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 842207969}
+  m_Layer: 9
+  m_Name: DropPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &842207969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842207968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.197, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 484026228}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &848766726
 GameObject:
   m_ObjectHideFlags: 0
@@ -10463,7 +11310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 848766727}
   - component: {fileID: 848766728}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10546,7 +11393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 862510251}
   - component: {fileID: 862510252}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10629,7 +11476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 863188235}
   - component: {fileID: 863188236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10712,7 +11559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 864678687}
   - component: {fileID: 864678688}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10795,7 +11642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 868025545}
   - component: {fileID: 868025546}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10878,7 +11725,7 @@ GameObject:
   m_Component:
   - component: {fileID: 873532082}
   - component: {fileID: 873532083}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10951,7 +11798,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &884779513
+--- !u!1 &885431181
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10959,12 +11806,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 884779514}
-  - component: {fileID: 884779516}
-  - component: {fileID: 884779515}
-  m_Layer: 5
-  m_Name: BlackoutBox
-  m_TagString: Blackout
+  - component: {fileID: 885431182}
+  m_Layer: 9
+  m_Name: DropPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11014,6 +11859,7 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+
 --- !u!1 &887110169
 GameObject:
   m_ObjectHideFlags: 0
@@ -11099,7 +11945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 891854595}
   - component: {fileID: 891854594}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11182,7 +12028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 894111631}
   - component: {fileID: 894111632}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11255,6 +12101,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &894114613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 894114614}
+  - component: {fileID: 894114616}
+  - component: {fileID: 894114615}
+  m_Layer: 5
+  m_Name: PauseMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &894114614
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894114613}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 397335436}
+  - {fileID: 1485003741}
+  - {fileID: 301517164}
+  m_Father: {fileID: 67580628}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &894114615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894114613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &894114616
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894114613}
+  m_CullTransparentMesh: 1
 --- !u!1 &896727568
 GameObject:
   m_ObjectHideFlags: 0
@@ -11265,7 +12189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 896727570}
   - component: {fileID: 896727569}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11349,7 +12273,7 @@ GameObject:
   - component: {fileID: 900969003}
   - component: {fileID: 900969005}
   - component: {fileID: 900969004}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11435,7 +12359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 913845703}
   - component: {fileID: 913845704}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11727,7 +12651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 941892283}
   - component: {fileID: 941892284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11944,7 +12868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 945246113}
   - component: {fileID: 945246114}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12027,7 +12951,7 @@ GameObject:
   m_Component:
   - component: {fileID: 946261121}
   - component: {fileID: 946261122}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn9
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -12084,7 +13008,7 @@ GameObject:
   m_Component:
   - component: {fileID: 952078850}
   - component: {fileID: 952078849}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12167,7 +13091,7 @@ GameObject:
   m_Component:
   - component: {fileID: 962548508}
   - component: {fileID: 962548509}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12250,7 +13174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 963979398}
   - component: {fileID: 963979399}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12335,7 +13259,7 @@ GameObject:
   - component: {fileID: 968822560}
   - component: {fileID: 968822559}
   - component: {fileID: 968822558}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12434,7 +13358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 968842923}
   - component: {fileID: 968842924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12517,7 +13441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 969504660}
   - component: {fileID: 969504661}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12600,7 +13524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 975104365}
   - component: {fileID: 975104366}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12683,7 +13607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 978309312}
   - component: {fileID: 978309313}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12766,7 +13690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 988836054}
   - component: {fileID: 988836055}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12849,7 +13773,7 @@ GameObject:
   m_Component:
   - component: {fileID: 990698632}
   - component: {fileID: 990698633}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-02 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12932,7 +13856,7 @@ GameObject:
   m_Component:
   - component: {fileID: 991134167}
   - component: {fileID: 991134166}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13005,6 +13929,87 @@ Transform:
   m_Father: {fileID: 1478576469}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1028916844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1028916845}
+  - component: {fileID: 1028916847}
+  - component: {fileID: 1028916846}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1028916845
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028916844}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.6397504, y: 1.8638437, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1171631318}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.8}
+  m_AnchoredPosition: {x: 0, y: 3}
+  m_SizeDelta: {x: 0, y: 6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1028916846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028916844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 18
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 120
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'QUIT
+
+'
+--- !u!222 &1028916847
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028916844}
+  m_CullTransparentMesh: 1
 --- !u!1 &1029354031
 GameObject:
   m_ObjectHideFlags: 0
@@ -13015,7 +14020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1029354033}
   - component: {fileID: 1029354032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13098,7 +14103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1029950112}
   - component: {fileID: 1029950113}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13181,7 +14186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030919127}
   - component: {fileID: 1030919126}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13265,10 +14270,11 @@ GameObject:
   - component: {fileID: 1034980259}
   - component: {fileID: 1034980258}
   - component: {fileID: 1034980257}
-  - component: {fileID: 1034980256}
   - component: {fileID: 1034980255}
-  - component: {fileID: 1034980254}
   - component: {fileID: 1034980261}
+  - component: {fileID: 1034980254}
+  - component: {fileID: 1034980256}
+  - component: {fileID: 1034980260}
   m_Layer: 9
   m_Name: lion1
   m_TagString: Enemy
@@ -13276,21 +14282,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1034980254
-MonoBehaviour:
+--- !u!58 &1034980254
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034980253}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  moveRight: 0
-  animator: {fileID: 1034980257}
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: aea62b7d883ca4579940455a1cbd8e4d, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00000011920929, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
 --- !u!50 &1034980255
 Rigidbody2D:
   serializedVersion: 4
@@ -13312,32 +14319,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &1034980256
-BoxCollider2D:
+--- !u!114 &1034980256
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034980253}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.23}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3}
-    newSize: {x: 3.6, y: 3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.19, y: 1.91}
-  m_EdgeRadius: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  moveRight: 0
+  animator: {fileID: 1034980257}
 --- !u!95 &1034980257
 Animator:
   serializedVersion: 3
@@ -13421,9 +14417,25 @@ Transform:
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 1856512434}
+  - {fileID: 1218627902}
   m_Father: {fileID: 1312209670}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1034980260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034980253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
+  fireRate: 0
+  nextFire: 0
 --- !u!114 &1034980261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13437,6 +14449,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1034980257}
+  healthPotion: {fileID: 3492534353877029058, guid: d69983e36d67a437eba856ef527ae7f8, type: 3}
+  dropPoint: {fileID: 1218627902}
   maxHealth: 100
   healthBar: {fileID: 729036963}
 --- !u!1 &1036442298
@@ -13449,7 +14463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1036442299}
   - component: {fileID: 1036442300}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13532,7 +14546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1041272378}
   - component: {fileID: 1041272379}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13849,7 +14863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1057427322}
   - component: {fileID: 1057427323}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14007,7 +15021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1075241848}
   - component: {fileID: 1075241849}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14090,7 +15104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1077790194}
   - component: {fileID: 1077790195}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn7
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -14253,7 +15267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1089432217}
   - component: {fileID: 1089432218}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14336,7 +15350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1113204396}
   - component: {fileID: 1113204397}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14419,7 +15433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1113676807}
   - component: {fileID: 1113676808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14502,7 +15516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1117026977}
   - component: {fileID: 1117026978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14585,7 +15599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1132207043}
   - component: {fileID: 1132207044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14668,7 +15682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1132855527}
   - component: {fileID: 1132855526}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14741,6 +15755,36 @@ Transform:
   m_Father: {fileID: 1932568328}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1146910651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1146910652}
+  m_Layer: 9
+  m_Name: DropPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1146910652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146910651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.205, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1891435357}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1147914641
 GameObject:
   m_ObjectHideFlags: 0
@@ -14751,7 +15795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1147914642}
   - component: {fileID: 1147914643}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14834,7 +15878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1152600297}
   - component: {fileID: 1152600298}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14917,7 +15961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1158271045}
   - component: {fileID: 1158271046}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15000,7 +16044,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1160940472}
   - component: {fileID: 1160940471}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15083,7 +16127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1161602884}
   - component: {fileID: 1161602885}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15166,7 +16210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1164568890}
   - component: {fileID: 1164568891}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15239,6 +16283,254 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1166832253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1166832258}
+  - component: {fileID: 1166832257}
+  - component: {fileID: 1166832256}
+  - component: {fileID: 1166832255}
+  - component: {fileID: 1166832254}
+  m_Layer: 5
+  m_Name: Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1166832254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166832253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268ea1906b0c94ee7a8b7415660cafe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuUI: {fileID: 1191709749}
+--- !u!114 &1166832255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166832253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1166832256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166832253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1166832257
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166832253}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1166832258
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166832253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 328109714}
+  - {fileID: 1191709751}
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1171631317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1171631318}
+  - component: {fileID: 1171631321}
+  - component: {fileID: 1171631320}
+  - component: {fileID: 1171631319}
+  m_Layer: 5
+  m_Name: QuitButtton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1171631318
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171631317}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.1375, y: 3.7403898, z: 1}
+  m_Children:
+  - {fileID: 1028916845}
+  m_Father: {fileID: 1191709751}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 110.999985}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1171631319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171631317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.3254902}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.49803922}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.72156864}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.94509804}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1171631320}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1191709750}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1171631320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171631317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.48235294}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1171631321
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171631317}
+  m_CullTransparentMesh: 1
 --- !u!1 &1176230975
 GameObject:
   m_ObjectHideFlags: 0
@@ -15249,7 +16541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1176230976}
   - component: {fileID: 1176230977}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15332,7 +16624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1189109719}
   - component: {fileID: 1189109718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15405,6 +16697,57 @@ Transform:
   m_Father: {fileID: 426868538}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1191709749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1191709751}
+  - component: {fileID: 1191709750}
+  m_Layer: 5
+  m_Name: MainMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1191709750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191709749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268ea1906b0c94ee7a8b7415660cafe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuUI: {fileID: 1166832253}
+--- !u!224 &1191709751
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191709749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1577312245}
+  - {fileID: 1171631318}
+  m_Father: {fileID: 1166832258}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1191860290
 GameObject:
   m_ObjectHideFlags: 0
@@ -15415,7 +16758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1191860291}
   - component: {fileID: 1191860292}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15497,7 +16840,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1194530094}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15540,7 +16883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1210606454}
   - component: {fileID: 1210606455}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15613,6 +16956,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1218627901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1218627902}
+  m_Layer: 9
+  m_Name: DropPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1218627902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218627901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1034980259}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1229312218
 GameObject:
   m_ObjectHideFlags: 0
@@ -15623,7 +16996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1229312220}
   - component: {fileID: 1229312219}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15707,10 +17080,11 @@ GameObject:
   - component: {fileID: 1235441194}
   - component: {fileID: 1235441201}
   - component: {fileID: 1235441200}
-  - component: {fileID: 1235441199}
   - component: {fileID: 1235441198}
   - component: {fileID: 1235441197}
   - component: {fileID: 1235441195}
+  - component: {fileID: 1235441196}
+  - component: {fileID: 1235441199}
   m_Layer: 9
   m_Name: lion2
   m_TagString: Enemy
@@ -15730,6 +17104,7 @@ Transform:
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 738601142}
+  - {fileID: 256229674}
   m_Father: {fileID: 1312209670}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15746,8 +17121,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1235441200}
+  healthPotion: {fileID: 3492534353877029058, guid: d69983e36d67a437eba856ef527ae7f8, type: 3}
+  dropPoint: {fileID: 256229674}
   maxHealth: 100
   healthBar: {fileID: 934867575}
+--- !u!58 &1235441196
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235441193}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: aea62b7d883ca4579940455a1cbd8e4d, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
 --- !u!114 &1235441197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15784,32 +17177,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &1235441199
-BoxCollider2D:
+--- !u!114 &1235441199
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1235441193}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.23}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3}
-    newSize: {x: 3.6, y: 3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.19, y: 1.91}
-  m_EdgeRadius: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
+  fireRate: 0
+  nextFire: 0
 --- !u!95 &1235441200
 Animator:
   serializedVersion: 3
@@ -15970,7 +17352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1242284752}
   - component: {fileID: 1242284753}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-15 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16128,7 +17510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1267314237}
   - component: {fileID: 1267314238}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16211,7 +17593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1272467157}
   - component: {fileID: 1272467158}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16294,7 +17676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1281572468}
   - component: {fileID: 1281572469}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16377,7 +17759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1290333825}
   - component: {fileID: 1290333826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16535,7 +17917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1301863878}
   - component: {fileID: 1301863879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16644,106 +18026,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1321680508
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1321680512}
-  - component: {fileID: 1321680511}
-  - component: {fileID: 1321680510}
-  - component: {fileID: 1321680509}
-  m_Layer: 9
-  m_Name: DialogueCanvas
-  m_TagString: NewWeaponDialogue
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1321680509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321680508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1321680510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321680508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
---- !u!223 &1321680511
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321680508}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 897043853
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1321680512
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321680508}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.041006412, y: 0.041489717, z: 1}
-  m_Children:
-  - {fileID: 1482272094}
-  m_Father: {fileID: 1459199480}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.21733093, y: 2.377365}
-  m_SizeDelta: {x: 80.2963, y: 59.74493}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1370696459
 GameObject:
   m_ObjectHideFlags: 0
@@ -16754,7 +18036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1370696460}
   - component: {fileID: 1370696461}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16837,7 +18119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1374469985}
   - component: {fileID: 1374469986}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16920,7 +18202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1375196803}
   - component: {fileID: 1375196804}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn2
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -16978,7 +18260,7 @@ GameObject:
   - component: {fileID: 1408915304}
   - component: {fileID: 1408915303}
   - component: {fileID: 1408915305}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17080,7 +18362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1411157177}
   - component: {fileID: 1411157178}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17163,7 +18445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1431516438}
   - component: {fileID: 1431516439}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17246,7 +18528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1440866085}
   - component: {fileID: 1440866086}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17319,7 +18601,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1459199476
+--- !u!1 &1450987839
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17327,143 +18609,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1459199480}
-  - component: {fileID: 1459199479}
-  - component: {fileID: 1459199478}
-  - component: {fileID: 1459199477}
-  - component: {fileID: 1459199481}
-  - component: {fileID: 1459199483}
-  - component: {fileID: 1459199482}
-  m_Layer: 0
-  m_Name: Chest
-  m_TagString: Chest
+  - component: {fileID: 1450987840}
+  - component: {fileID: 1450987843}
+  - component: {fileID: 1450987842}
+  - component: {fileID: 1450987841}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &1459199477
-Animator:
-  serializedVersion: 3
+--- !u!224 &1450987840
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459199476}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 49791091aaf28cf449d10046d69bf2c6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &1459199478
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459199476}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.11826086}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.68}
-    newSize: {x: 0.64, y: 0.68}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.44347823}
-  m_EdgeRadius: 0
---- !u!212 &1459199479
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459199476}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 897043853
-  m_SortingLayer: 4
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9c64e204cf00a3740a95524cec470df1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.68}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1459199480
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459199476}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.4, y: 77.6, z: 0}
-  m_LocalScale: {x: 24.38643, y: 24.102356, z: 1}
-  m_Children:
-  - {fileID: 1321680512}
-  - {fileID: 2035536356}
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_GameObject: {fileID: 1450987839}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 397335436}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1459199481
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1450987841
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459199476}
+  m_GameObject: {fileID: 1450987839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80b072c75a9687d4a9d132a0108fba52, type: 3}
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1459199477}
@@ -17475,32 +18660,50 @@ MonoBehaviour:
   isRunning: 0
   blackBox: {fileID: 884779515}
 --- !u!114 &1459199482
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459199476}
+  m_GameObject: {fileID: 1450987839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 0.0010193795
-  m_labelHash: -3.1107735e+34
---- !u!114 &1459199483
-MonoBehaviour:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 26
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: RESUME
+--- !u!222 &1450987843
+CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459199476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SpriteLibraryAsset: {fileID: 11400000, guid: b26cb055be976a641a92e61aab4965fc, type: 2}
+  m_GameObject: {fileID: 1450987839}
+  m_CullTransparentMesh: 1
 --- !u!1 &1461650791
 GameObject:
   m_ObjectHideFlags: 0
@@ -17511,7 +18714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1461650792}
   - component: {fileID: 1461650793}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17594,7 +18797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1463593067}
   - component: {fileID: 1463593068}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17677,7 +18880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1464827498}
   - component: {fileID: 1464827499}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17760,7 +18963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472569612}
   - component: {fileID: 1472569613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17842,7 +19045,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1478576469}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17914,90 +19117,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1482272093
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1482272094}
-  - component: {fileID: 1482272096}
-  m_Layer: 9
-  m_Name: TextBubble
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1482272094
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1482272093}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2447, y: -4.9402, z: 0}
-  m_LocalScale: {x: 13.553767, y: 42.00583, z: 1}
-  m_Children:
-  - {fileID: 1890441183}
-  m_Father: {fileID: 1321680512}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1482272096
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1482272093}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 897043853
-  m_SortingLayer: 4
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e4db21f3a53f94b9e8e0e703eaf3d195, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5.12, y: 2.56}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1484400318
 GameObject:
   m_ObjectHideFlags: 0
@@ -18008,7 +19127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1484400319}
   - component: {fileID: 1484400320}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18081,6 +19200,139 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1485003740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1485003741}
+  - component: {fileID: 1485003744}
+  - component: {fileID: 1485003743}
+  - component: {fileID: 1485003742}
+  m_Layer: 5
+  m_Name: Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1485003741
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485003740}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2.5, z: 1}
+  m_Children:
+  - {fileID: 68901613}
+  m_Father: {fileID: 894114614}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 101.8}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1485003742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485003740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.21176471}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5372549}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.7372549}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1485003743}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 67580629}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: LoadMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1485003743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485003740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1485003744
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485003740}
+  m_CullTransparentMesh: 0
 --- !u!1 &1519045439
 GameObject:
   m_ObjectHideFlags: 0
@@ -18091,7 +19343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1519045440}
   - component: {fileID: 1519045441}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18204,7 +19456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1527002595}
   - component: {fileID: 1527002596}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18414,7 +19666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1548842913}
   - component: {fileID: 1548842914}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn1
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -18471,7 +19723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1551228565}
   - component: {fileID: 1551228566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18555,8 +19807,7 @@ GameObject:
   - component: {fileID: 1558023134}
   - component: {fileID: 1558023136}
   - component: {fileID: 1558023135}
-  - component: {fileID: 1558023137}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Health bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18701,7 +19952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573903539}
   - component: {fileID: 1573903540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-03 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18774,6 +20025,139 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1577312244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1577312245}
+  - component: {fileID: 1577312248}
+  - component: {fileID: 1577312247}
+  - component: {fileID: 1577312246}
+  m_Layer: 5
+  m_Name: PlayButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1577312245
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577312244}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.1375, y: 3.7403898, z: 1}
+  m_Children:
+  - {fileID: 791837163}
+  m_Father: {fileID: 1191709751}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 266}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1577312246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577312244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.3254902}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.49803922}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.72156864}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.94509804}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1577312247}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1191709750}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: PlayGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1577312247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577312244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.48235294}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1577312248
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577312244}
+  m_CullTransparentMesh: 1
 --- !u!1 &1586062927
 GameObject:
   m_ObjectHideFlags: 0
@@ -18993,7 +20377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1606083893}
   - component: {fileID: 1606083894}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn11
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -19050,7 +20434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1619149778}
   - component: {fileID: 1619149779}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19133,7 +20517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1626603215}
   - component: {fileID: 1626603216}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19216,7 +20600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637612186}
   - component: {fileID: 1637612185}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19299,7 +20683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1642581430}
   - component: {fileID: 1642581431}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19382,7 +20766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1644726772}
   - component: {fileID: 1644726773}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19465,7 +20849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1647238135}
   - component: {fileID: 1647238136}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19548,7 +20932,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1648261725}
   - component: {fileID: 1648261726}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19631,7 +21015,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1668927589}
   - component: {fileID: 1668927590}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19714,7 +21098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1676776859}
   - component: {fileID: 1676776858}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19797,7 +21181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1677445916}
   - component: {fileID: 1677445917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19880,7 +21264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1679912034}
   - component: {fileID: 1679912035}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19963,7 +21347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1680282222}
   - component: {fileID: 1680282221}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20046,7 +21430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1687449384}
   - component: {fileID: 1687449385}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20129,7 +21513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1689075368}
   - component: {fileID: 1689075369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20212,7 +21596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1698181630}
   - component: {fileID: 1698181631}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-03 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20295,7 +21679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1698688579}
   - component: {fileID: 1698688580}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20378,7 +21762,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1700579003}
   - component: {fileID: 1700579004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20461,7 +21845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1702483157}
   - component: {fileID: 1702483158}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20619,7 +22003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1705840670}
   - component: {fileID: 1705840671}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20703,10 +22087,10 @@ GameObject:
   - component: {fileID: 1709572044}
   - component: {fileID: 1709572051}
   - component: {fileID: 1709572050}
-  - component: {fileID: 1709572049}
   - component: {fileID: 1709572048}
   - component: {fileID: 1709572047}
   - component: {fileID: 1709572045}
+  - component: {fileID: 1709572046}
   m_Layer: 9
   m_Name: lion6
   m_TagString: Enemy
@@ -20726,6 +22110,7 @@ Transform:
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 698268006}
+  - {fileID: 885431182}
   m_Father: {fileID: 1312209670}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20742,8 +22127,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1709572050}
+  healthPotion: {fileID: 3492534353877029058, guid: d69983e36d67a437eba856ef527ae7f8, type: 3}
+  dropPoint: {fileID: 885431182}
   maxHealth: 100
   healthBar: {fileID: 942382389}
+--- !u!58 &1709572046
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709572043}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: aea62b7d883ca4579940455a1cbd8e4d, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
 --- !u!114 &1709572047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20780,32 +22183,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &1709572049
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709572043}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.23}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3}
-    newSize: {x: 3.6, y: 3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.19, y: 1.91}
-  m_EdgeRadius: 0
 --- !u!95 &1709572050
 Animator:
   serializedVersion: 3
@@ -20887,7 +22264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1714931994}
   - component: {fileID: 1714931995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20970,7 +22347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1716485797}
   - component: {fileID: 1716485798}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21053,7 +22430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1719861727}
   - component: {fileID: 1719861728}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21136,7 +22513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1765527399}
   - component: {fileID: 1765527398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21219,7 +22596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1766789378}
   - component: {fileID: 1766789379}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn3
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -21276,7 +22653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1773398059}
   - component: {fileID: 1773398060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21359,7 +22736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1792519877}
   - component: {fileID: 1792519878}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21442,7 +22819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1796943109}
   - component: {fileID: 1796943110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21525,7 +22902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1799318226}
   - component: {fileID: 1799318227}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21944,7 +23321,7 @@ GameObject:
   - component: {fileID: 1813845795}
   - component: {fileID: 1813845794}
   - component: {fileID: 1813845796}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: CM vcam1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21980,7 +23357,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.86409396, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -21997,7 +23374,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813845793}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -60.827515, y: 69.799995, z: -10}
+  m_LocalPosition: {x: -25.011108, y: 69.799995, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 900969003}
@@ -22029,7 +23406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1817148769}
   - component: {fileID: 1817148770}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-13 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22112,7 +23489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1831402671}
   - component: {fileID: 1831402672}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22195,7 +23572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1835966568}
   - component: {fileID: 1835966569}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22353,7 +23730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1855877956}
   - component: {fileID: 1855877957}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22536,7 +23913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1858061207}
   - component: {fileID: 1858061208}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22619,7 +23996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1870401524}
   - component: {fileID: 1870401525}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22702,7 +24079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1873216568}
   - component: {fileID: 1873216569}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22785,7 +24162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1881724733}
   - component: {fileID: 1881724734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22868,7 +24245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1884353755}
   - component: {fileID: 1884353756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-12 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22941,88 +24318,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1890441182
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1890441183}
-  - component: {fileID: 1890441185}
-  - component: {fileID: 1890441184}
-  m_Layer: 9
-  m_Name: DialogueText
-  m_TagString: NewWeaponDialogue
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1890441183
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890441182}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0022867369, y: 0.0014628584, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1482272094}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.07842, y: 0.05247}
-  m_SizeDelta: {x: 2084.0386, y: 696.0611}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1890441184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890441182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 150
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 300
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 1
-    m_LineSpacing: 1
-  m_Text: 'You''ve discovered a new weapon to aid you in defeating the lions. Use
-    it wisely.
-
-    Test it out by clicking ____.'
---- !u!222 &1890441185
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890441182}
-  m_CullTransparentMesh: 1
 --- !u!1 &1891435356
 GameObject:
   m_ObjectHideFlags: 0
@@ -23034,10 +24329,10 @@ GameObject:
   - component: {fileID: 1891435357}
   - component: {fileID: 1891435364}
   - component: {fileID: 1891435363}
-  - component: {fileID: 1891435362}
   - component: {fileID: 1891435361}
   - component: {fileID: 1891435360}
   - component: {fileID: 1891435358}
+  - component: {fileID: 1891435359}
   m_Layer: 9
   m_Name: lion5
   m_TagString: Enemy
@@ -23057,6 +24352,7 @@ Transform:
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 1045819851}
+  - {fileID: 1146910652}
   m_Father: {fileID: 1312209670}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23072,9 +24368,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96e55566e34a2417290b9384719a8078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1709572050}
+  animator: {fileID: 1891435363}
+  healthPotion: {fileID: 3492534353877029058, guid: d69983e36d67a437eba856ef527ae7f8, type: 3}
+  dropPoint: {fileID: 1146910652}
   maxHealth: 100
   healthBar: {fileID: 815620200}
+--- !u!58 &1891435359
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891435356}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: aea62b7d883ca4579940455a1cbd8e4d, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
 --- !u!114 &1891435360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23111,32 +24425,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &1891435362
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1891435356}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.23}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3}
-    newSize: {x: 3.6, y: 3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.19, y: 1.91}
-  m_EdgeRadius: 0
 --- !u!95 &1891435363
 Animator:
   serializedVersion: 3
@@ -23218,7 +24506,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1895690602}
   - component: {fileID: 1895690603}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23457,7 +24745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1913976989}
   - component: {fileID: 1913976990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-03 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23539,7 +24827,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1932568328}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23576,7 +24864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1936239497}
   - component: {fileID: 1936239498}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23659,7 +24947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1939953430}
   - component: {fileID: 1939953431}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23742,7 +25030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1952674345}
   - component: {fileID: 1952674346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-02 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23825,7 +25113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1954386803}
   - component: {fileID: 1954386804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-03 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23908,7 +25196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1955849028}
   - component: {fileID: 1955849029}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23991,7 +25279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1959769173}
   - component: {fileID: 1959769174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24074,7 +25362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1966068333}
   - component: {fileID: 1966068334}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24158,7 +25446,7 @@ GameObject:
   - component: {fileID: 1979148735}
   - component: {fileID: 1979148737}
   - component: {fileID: 1979148736}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24232,7 +25520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1992810440}
   - component: {fileID: 1992810441}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24563,7 +25851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 323693254}
-  arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
+  bulletPrefab: {fileID: 857714317266884511, guid: d8fdf6c3d6b434b9ca03f316bab7d5b5, type: 3}
   animator: {fileID: 1996306364}
 --- !u!114 &1996306366
 MonoBehaviour:
@@ -24598,7 +25886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e38f054fd13e540259aec0b3f8d1b9b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 30
+  maxHealth: 100
   currentHealth: 0
   healthBar: {fileID: 1558023135}
   animator: {fileID: 1996306364}
@@ -24627,7 +25915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1996393349}
   - component: {fileID: 1996393350}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24710,7 +25998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2000115842}
   - component: {fileID: 2000115843}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25054,7 +26342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013862878}
   - component: {fileID: 2013862879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25137,7 +26425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2018992338}
   - component: {fileID: 2018992339}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-15 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25320,7 +26608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2030879424}
   - component: {fileID: 2030879425}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform-detail-11 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25403,7 +26691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2034310445}
   - component: {fileID: 2034310446}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25486,7 +26774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2034997747}
   - component: {fileID: 2034997748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25642,6 +26930,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+
 --- !u!1 &2045822727
 GameObject:
   m_ObjectHideFlags: 0
@@ -25652,7 +26941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2045822728}
   - component: {fileID: 2045822729}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: turn5
   m_TagString: turn
   m_Icon: {fileID: 0}
@@ -25709,7 +26998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2046361837}
   - component: {fileID: 2046361838}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25792,7 +27081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2049361157}
   - component: {fileID: 2049361158}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25875,7 +27164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2049856105}
   - component: {fileID: 2049856106}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25958,7 +27247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2056625135}
   - component: {fileID: 2056625136}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-mountain-01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26041,7 +27330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2062203145}
   - component: {fileID: 2062203146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26124,7 +27413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2064152277}
   - component: {fileID: 2064152278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-02 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26207,7 +27496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2074276121}
   - component: {fileID: 2074276122}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jungle-tree-03 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26356,7 +27645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2119930096}
   - component: {fileID: 2119930097}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-04 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26439,7 +27728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2125499707}
   - component: {fileID: 2125499708}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
