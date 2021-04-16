@@ -17382,10 +17382,10 @@ GameObject:
   - component: {fileID: 1459199480}
   - component: {fileID: 1459199479}
   - component: {fileID: 1459199478}
-  - component: {fileID: 1459199477}
   - component: {fileID: 1459199481}
   - component: {fileID: 1459199483}
   - component: {fileID: 1459199482}
+  - component: {fileID: 1459199477}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Chest
@@ -17518,13 +17518,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80b072c75a9687d4a9d132a0108fba52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 1459199477}
+  anim: {fileID: 0}
   Player: {fileID: 1996306356}
   Chest: {fileID: 1459199476}
   Gun: {fileID: 2035536355}
   DialogueBox: {fileID: 1321680508}
-  mySpriteResolver: {fileID: 0}
+  mySpriteResolver: {fileID: 1459199482}
   isRunning: 0
+  blackBox: {fileID: 1351217270}
 --- !u!114 &1459199482
 MonoBehaviour:
   m_ObjectHideFlags: 0
