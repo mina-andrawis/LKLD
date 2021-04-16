@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Chest Sprite Library
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Chest
+    m_Hash: 981834931
+    m_CategoryList:
+    - m_Name: OpenChest
+      m_Hash: 1554329390
+      m_Sprite: {fileID: 21300000, guid: 486bc8810e6ebfb43ba36ddc7a5037b8, type: 3}
+    - m_Name: ClosedChest
+      m_Hash: -121653414
+      m_Sprite: {fileID: 21300000, guid: 9c64e204cf00a3740a95524cec470df1, type: 3}
