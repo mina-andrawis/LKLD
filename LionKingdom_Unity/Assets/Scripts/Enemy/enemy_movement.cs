@@ -9,10 +9,6 @@ public class enemy_movement : MonoBehaviour
     public bool moveRight;
     public Animator animator;
 
-    void Start()
-    {
-        GetComponent<ArrowAttack>().enabled = false;
-    }
 
     // Update is called once per frame
     void Update()
@@ -34,7 +30,6 @@ public class enemy_movement : MonoBehaviour
             transform.Translate(-2 * Time.deltaTime * speed, 0, 0);
             transform.localScale = new Vector2(8, 8);
         }
-        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -50,16 +45,6 @@ public class enemy_movement : MonoBehaviour
                 moveRight = true;
             }
         }
-    }
-    
-    void OnBecameVisible()
-    {
-        GetComponent<ArrowAttack>().enabled = true;
-    }
-    
-    void OnBecameInvisible()
-    {
-        GetComponent<ArrowAttack>().enabled = false;
     }
 
 }
