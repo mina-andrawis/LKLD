@@ -49,4 +49,9 @@ public class PlayerMovement : MonoBehaviour
 		monkeyController.Move(horizontalMotion * Time.fixedDeltaTime, crouch, jump);
 		jump = false;
 	}
+ 
+    void OnBecameInvisible()
+    {
+        Application.LoadLevel(Application.loadedLevel);
+    }
 }
