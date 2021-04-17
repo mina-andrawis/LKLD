@@ -31,6 +31,11 @@ public class PlayerMovement : MonoBehaviour
 		{
 			crouch = false;
 		}
+  
+        if(gameObject.transform.position.y <= -50)
+        {
+            Application.LoadLevel(Application.loadedLevel);
+        }
     }
     
     public void OnLanding()
@@ -49,9 +54,4 @@ public class PlayerMovement : MonoBehaviour
 		monkeyController.Move(horizontalMotion * Time.fixedDeltaTime, crouch, jump);
 		jump = false;
 	}
- 
-    void OnBecameInvisible()
-    {
-        Application.LoadLevel(Application.loadedLevel);
-    }
 }
