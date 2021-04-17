@@ -15,15 +15,15 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         horizontalMotion = Input.GetAxisRaw("Horizontal") * runningSpeed;
-        
+
         animator.SetFloat("Speed", Mathf.Abs(horizontalMotion));
-		
+
 		if(Input.GetButtonDown("Jump"))
 		{
 			jump = true;
             animator.SetBool("IsJumping", true);
 		}
-		
+
 		if(Input.GetButtonDown("Crouch"))
 		{
 			crouch = true;
@@ -31,28 +31,27 @@ public class PlayerMovement : MonoBehaviour
 		{
 			crouch = false;
 		}
+
+        if(gameObject.transform.position.y <= -50)
+        {
+            Application.LoadLevel(Application.loadedLevel);
+        }
     }
-    
+
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
     }
-    
+
     public void OnCrouching(bool IsCrouching)
     {
         animator.SetBool("IsCrouching", IsCrouching);
     }
-	
+
 	void FixedUpdate()
 	{
 		//Move the monkey
 		monkeyController.Move(horizontalMotion * Time.fixedDeltaTime, crouch, jump);
 		jump = false;
 	}
- 
-    void OnBecameInvisible()
-    {
-        // ** CAUSES BUG - DOESNT ALLOW PROGRESSION TO NEXT LEVEL ** //
-		//Application.LoadLevel(Application.loadedLevel);
-    }
 }
