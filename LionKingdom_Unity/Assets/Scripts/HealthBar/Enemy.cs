@@ -37,19 +37,16 @@ public class Enemy : MonoBehaviour
 	
 	void Die()
 	{
+        if (Random.Range (0f, 1f) <= .25)
+        {
+            Instantiate (healthPotion, dropPoint.position, dropPoint.rotation);
+        }
+        
 		Debug.Log("Enemy died!");
 		GetComponent<Collider2D>().enabled = false;
   
 		this.enabled = false;
         Destroy(gameObject, 2);
 	}
- 
-    public void OnDestroy()
-    {
-        if (Random.Range (0f, 1f) <= .25)
-        {
-            Instantiate (healthPotion, dropPoint.position, dropPoint.rotation);
-        }
-    }
 }
 
