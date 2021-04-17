@@ -52,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
  
     void OnBecameInvisible()
     {
-        Application.LoadLevel(Application.loadedLevel);
+        // ** CAUSES BUG - DOESNT ALLOW PROGRESSION TO NEXT LEVEL ** //
+		//Application.LoadLevel(Application.loadedLevel);
     }
 }

@@ -1275,7 +1275,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77609776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.0002, y: 89.22047, z: -10}
+  m_LocalPosition: {x: -60.925125, y: 89.226845, z: -10}
   m_LocalScale: {x: 2, y: 3, z: 1}
   m_Children:
   - {fileID: 968822557}
@@ -21201,7 +21201,7 @@ MonoBehaviour:
   m_Text: 'You''ve discovered a new weapon to aid you in defeating the lions. Use
     it wisely.
 
-    Test it out by clicking ____.'
+    Test it out by clicking LShift.'
 --- !u!222 &1644520102
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23811,7 +23811,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 0.86153847, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -23828,7 +23828,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813845793}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.011108, y: 69.799995, z: -10}
+  m_LocalPosition: {x: -60.92769, y: 69.799995, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 900969003}
@@ -25189,6 +25189,7 @@ MonoBehaviour:
     - Primates have been enslaved as long as I can remember.
     - It's up to you to release your brothers from the shackles of the lions.. or
       die trying.
+    - The space key is a valuable tool. Keep that in mind.
 --- !u!1 &1913976988
 GameObject:
   m_ObjectHideFlags: 0
@@ -27127,7 +27128,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021560445}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1265.8, y: 39.2, z: 0}
+  m_LocalPosition: {x: 1267.9, y: 40.5, z: 0}
   m_LocalScale: {x: 24.38643, y: 24.102356, z: 1}
   m_Children:
   - {fileID: 1248077541}

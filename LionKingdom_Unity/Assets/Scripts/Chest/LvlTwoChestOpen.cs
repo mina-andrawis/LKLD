@@ -4,7 +4,7 @@ using UnityEngine.Experimental.U2D.Animation;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ChestOpen : MonoBehaviour
+public class LvlTwoChestOpen : MonoBehaviour
 {
 
     private float radius;
@@ -61,19 +61,20 @@ public class ChestOpen : MonoBehaviour
 
 
         }
-}
+    }
 
     //wait 8 seconds before fading to black and starting next level
     IEnumerator endLevel()
     {
         isRunning = true;
 
+        Debug.Log(SceneManager.GetActiveScene().buildIndex+1);
+
         yield return new WaitForSeconds(8);
         blackBox.Fade();
         yield return new WaitForSeconds(3);
-        //SceneManager.LoadScene("SecondLevel");
+        SceneManager.LoadScene(2);
 
-        Application.LoadLevel(Application.loadedLevel + 1);
         isRunning = false;
     }
 
