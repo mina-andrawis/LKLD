@@ -42,14 +42,17 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-      currentHealth -= damage;
-      healthBar.SetHealth(currentHealth);
-      if(currentHealth <=0)Die();
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+        if(currentHealth <=0)
+        {
+            animator.SetTrigger("IsDead");
+            Invoke("Die", 1);
+        }
     }
     
     void Die()
     {
-        animator.SetBool("IsDead", true);
         Application.LoadLevel(Application.loadedLevel);
     }
 }
