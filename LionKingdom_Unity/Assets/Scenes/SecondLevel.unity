@@ -1220,7 +1220,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190185834}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -145.2225, y: -12.672539, z: 937.0371}
+  m_LocalPosition: {x: -166.42, y: -18.73, z: 937.0371}
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 506479744}
@@ -2294,7 +2294,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -0.08230591, y: 0.0000030398}
+  m_AnchoredPosition: {x: 10.88, y: -16.22}
   m_SizeDelta: {x: 13, y: 12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &336690589
@@ -4212,7 +4212,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703379308}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 52.5, y: -12.672539, z: 937.0371}
+  m_LocalPosition: {x: 30.4, y: -19, z: 937.0371}
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 409284382}
@@ -5219,6 +5219,7 @@ GameObject:
   - component: {fileID: 891358101}
   - component: {fileID: 891358100}
   - component: {fileID: 891358099}
+  - component: {fileID: 891358105}
   m_Layer: 9
   m_Name: lion4
   m_TagString: Enemy
@@ -5234,7 +5235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 891358097}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 570.4, y: -12.672539, z: 937.0371}
+  m_LocalPosition: {x: 743.7, y: 66.9, z: 937.0371}
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 1818962672}
@@ -5382,6 +5383,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &891358105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891358097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 0}
+  fireRate: 0
+  nextFire: 0
 --- !u!1 &905231452
 GameObject:
   m_ObjectHideFlags: 0
@@ -6064,6 +6080,7 @@ GameObject:
   - component: {fileID: 1077372789}
   - component: {fileID: 1077372788}
   - component: {fileID: 1077372787}
+  - component: {fileID: 1077372793}
   m_Layer: 9
   m_Name: lion5
   m_TagString: Enemy
@@ -6079,7 +6096,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077372785}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 808.7, y: -12.672539, z: 937.0371}
+  m_LocalPosition: {x: 758.6, y: -5.9, z: 937.0371}
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 807650952}
@@ -6227,6 +6244,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1077372793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077372785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 0}
+  fireRate: 0
+  nextFire: 0
 --- !u!1 &1096524920
 GameObject:
   m_ObjectHideFlags: 0
@@ -13340,7 +13372,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421661202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.49, y: -1.47, z: 0}
+  m_LocalPosition: {x: -0.08, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 190185835}
@@ -13772,6 +13804,7 @@ GameObject:
   - component: {fileID: 1566591164}
   - component: {fileID: 1566591163}
   - component: {fileID: 1566591162}
+  - component: {fileID: 1566591168}
   m_Layer: 9
   m_Name: lion6
   m_TagString: Enemy
@@ -13787,7 +13820,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1566591160}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1003.1, y: 23.6, z: 937.0371}
+  m_LocalPosition: {x: 1212.1, y: -19.3, z: 937.0371}
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 441647236}
@@ -13935,6 +13968,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1566591168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566591160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 0}
+  fireRate: 0
+  nextFire: 0
 --- !u!1 &1612970071
 GameObject:
   m_ObjectHideFlags: 0
@@ -14041,7 +14089,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635022930}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 309, y: -12.672539, z: 937.0371}
+  m_LocalPosition: {x: 309, y: -6.24, z: 937.0371}
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 258985149}
@@ -15434,7 +15482,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881540818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.191, z: 0}
+  m_LocalPosition: {x: 0, y: -1.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 703379309}
@@ -15521,7 +15569,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895536428}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.205, z: 0}
+  m_LocalPosition: {x: 0, y: -1.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1635022931}
