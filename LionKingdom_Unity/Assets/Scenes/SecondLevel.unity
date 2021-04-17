@@ -4203,7 +4203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 640951155}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: lions
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -5131,6 +5131,36 @@ Transform:
   - {fileID: 1272346816}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &805359732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 805359733}
+  m_Layer: 6
+  m_Name: AttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &805359733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805359732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.75, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1949795666}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &807650951
 GameObject:
@@ -16681,7 +16711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1949795659}
-  attackPoint: {fileID: 1523326132}
+  attackPoint: {fileID: 805359733}
   enemyLayers:
     serializedVersion: 2
     m_Bits: 512
@@ -16935,6 +16965,7 @@ Transform:
   - {fileID: 89408836}
   - {fileID: 1318562024}
   - {fileID: 1523326132}
+  - {fileID: 805359733}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
