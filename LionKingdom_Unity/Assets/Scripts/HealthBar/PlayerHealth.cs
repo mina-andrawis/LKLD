@@ -47,7 +47,7 @@ public class PlayerHealth : MonoBehaviour
         if(currentHealth <=0)
         {
             animator.SetTrigger("IsDead");
-            Invoke("Die", 1);
+            Die();
         }
     }
     

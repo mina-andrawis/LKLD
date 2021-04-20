@@ -1275,7 +1275,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77609776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -60.925125, y: 89.226845, z: -10}
+  m_LocalPosition: {x: -25.0002, y: 89.22047, z: -10}
   m_LocalScale: {x: 2, y: 3, z: 1}
   m_Children:
   - {fileID: 968822557}
@@ -3809,9 +3809,9 @@ GameObject:
   - component: {fileID: 349718621}
   - component: {fileID: 349718620}
   - component: {fileID: 349718618}
-  - component: {fileID: 349718617}
   - component: {fileID: 349718615}
   - component: {fileID: 349718616}
+  - component: {fileID: 349718617}
   m_Layer: 9
   m_Name: lion3
   m_TagString: Enemy
@@ -3877,7 +3877,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 349718613}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
+  m_Script: {fileID: 11500000, guid: 36ace7c0b173e475bb82d8949571f210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
@@ -5074,9 +5074,9 @@ GameObject:
   - component: {fileID: 484026235}
   - component: {fileID: 484026234}
   - component: {fileID: 484026232}
-  - component: {fileID: 484026231}
   - component: {fileID: 484026229}
   - component: {fileID: 484026230}
+  - component: {fileID: 484026231}
   m_Layer: 9
   m_Name: lion4
   m_TagString: Enemy
@@ -5142,7 +5142,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 484026227}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
+  m_Script: {fileID: 11500000, guid: 36ace7c0b173e475bb82d8949571f210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
@@ -14618,7 +14618,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1034980253}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
+  m_Script: {fileID: 11500000, guid: 36ace7c0b173e475bb82d8949571f210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
@@ -17419,9 +17419,9 @@ GameObject:
   - component: {fileID: 1235441201}
   - component: {fileID: 1235441200}
   - component: {fileID: 1235441198}
-  - component: {fileID: 1235441197}
   - component: {fileID: 1235441195}
   - component: {fileID: 1235441196}
+  - component: {fileID: 1235441199}
   m_Layer: 9
   m_Name: lion2
   m_TagString: Enemy
@@ -17478,21 +17478,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1
---- !u!114 &1235441197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1235441193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  moveRight: 0
-  animator: {fileID: 1235441200}
 --- !u!50 &1235441198
 Rigidbody2D:
   serializedVersion: 4
@@ -17514,6 +17499,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1235441199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235441193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ace7c0b173e475bb82d8949571f210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  moveRight: 0
+  animator: {fileID: 1235441200}
 --- !u!95 &1235441200
 Animator:
   serializedVersion: 3
@@ -22542,9 +22542,9 @@ GameObject:
   - component: {fileID: 1709572051}
   - component: {fileID: 1709572050}
   - component: {fileID: 1709572048}
-  - component: {fileID: 1709572047}
   - component: {fileID: 1709572045}
   - component: {fileID: 1709572046}
+  - component: {fileID: 1709572047}
   m_Layer: 9
   m_Name: lion6
   m_TagString: Enemy
@@ -22610,7 +22610,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1709572043}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
+  m_Script: {fileID: 11500000, guid: 36ace7c0b173e475bb82d8949571f210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
@@ -23811,7 +23811,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.86153847, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -23828,7 +23828,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813845793}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -60.92769, y: 69.799995, z: -10}
+  m_LocalPosition: {x: -25.011108, y: 69.799995, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 900969003}
@@ -24784,9 +24784,9 @@ GameObject:
   - component: {fileID: 1891435364}
   - component: {fileID: 1891435363}
   - component: {fileID: 1891435361}
-  - component: {fileID: 1891435360}
   - component: {fileID: 1891435358}
   - component: {fileID: 1891435359}
+  - component: {fileID: 1891435360}
   m_Layer: 9
   m_Name: lion5
   m_TagString: Enemy
@@ -24852,7 +24852,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1891435356}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
+  m_Script: {fileID: 11500000, guid: 36ace7c0b173e475bb82d8949571f210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
