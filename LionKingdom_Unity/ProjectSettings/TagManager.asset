@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - turn
+  - Enemy
+  - Potion
+  - Blocks
   layers:
   - Default
   - TransparentFX
@@ -13,11 +16,11 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Bounds
+  - Ground
+  - Enemies
+  - Turns
+  - Cameras
   - 
   - 
   - 
@@ -54,6 +57,12 @@ TagManager:
   - name: Foreground
     uniqueID: 1442035183
     locked: 0
-  - name: characters
-    uniqueID: 3171630737
+  - name: Tilemap
+    uniqueID: 284902777
+    locked: 0
+  - name: Player
+    uniqueID: 897043853
+    locked: 0
+  - name: Enemy
+    uniqueID: 1075948243
     locked: 0
