@@ -1108,7 +1108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77609776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.0002, y: 89.22047, z: -10}
+  m_LocalPosition: {x: 23.667747, y: 89.21181, z: -10}
   m_LocalScale: {x: 2, y: 3, z: 1}
   m_Children:
   - {fileID: 968822557}
@@ -4725,6 +4725,7 @@ GameObject:
   - component: {fileID: 484026231}
   - component: {fileID: 484026229}
   - component: {fileID: 484026230}
+  - component: {fileID: 484026233}
   m_Layer: 9
   m_Name: lion4
   m_TagString: Enemy
@@ -4817,6 +4818,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &484026233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484026227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4caa6fbefbccf144b61da38ef701b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 484026234}
+  attackPoint: {fileID: 484026228}
+  playerLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  knifePrefab: {fileID: 1679379326609583192, guid: f51c8019202fd412f89bc930253606bf, type: 3}
+  attackRange: 0.5
+  attackDamage: 40
+  attackRate: 2
 --- !u!95 &484026234
 Animator:
   serializedVersion: 3
@@ -21963,6 +21985,7 @@ GameObject:
   - component: {fileID: 1709572047}
   - component: {fileID: 1709572045}
   - component: {fileID: 1709572046}
+  - component: {fileID: 1709572049}
   m_Layer: 9
   m_Name: lion6
   m_TagString: Enemy
@@ -22055,6 +22078,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1709572049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709572043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4caa6fbefbccf144b61da38ef701b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1709572050}
+  attackPoint: {fileID: 1709572044}
+  playerLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  knifePrefab: {fileID: 1679379326609583192, guid: f51c8019202fd412f89bc930253606bf, type: 3}
+  attackRange: 0.5
+  attackDamage: 40
+  attackRate: 2
 --- !u!95 &1709572050
 Animator:
   serializedVersion: 3
@@ -23229,7 +23273,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 2.4937887, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -23246,7 +23290,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813845793}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.011108, y: 69.799995, z: -10}
+  m_LocalPosition: {x: 3.0565186, y: 69.799995, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 900969003}
@@ -24205,6 +24249,7 @@ GameObject:
   - component: {fileID: 1891435360}
   - component: {fileID: 1891435358}
   - component: {fileID: 1891435359}
+  - component: {fileID: 1891435362}
   m_Layer: 9
   m_Name: lion5
   m_TagString: Enemy
@@ -24297,6 +24342,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1891435362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891435356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4caa6fbefbccf144b61da38ef701b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1891435363}
+  attackPoint: {fileID: 1891435357}
+  playerLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  knifePrefab: {fileID: 1679379326609583192, guid: f51c8019202fd412f89bc930253606bf, type: 3}
+  attackRange: 0.5
+  attackDamage: 40
+  attackRate: 2
 --- !u!95 &1891435363
 Animator:
   serializedVersion: 3
