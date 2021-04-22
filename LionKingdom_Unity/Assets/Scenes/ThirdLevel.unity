@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 11153534}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22512,7 +22512,7 @@ GameObject:
   - component: {fileID: 749193183}
   m_Layer: 0
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25949,8 +25949,8 @@ GameObject:
   - component: {fileID: 1210903314}
   - component: {fileID: 1210903313}
   - component: {fileID: 1210903312}
-  - component: {fileID: 1210903311}
   - component: {fileID: 1210903310}
+  - component: {fileID: 1210903311}
   m_Layer: 9
   m_Name: lion1
   m_TagString: Enemy
@@ -25983,10 +25983,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1210903308}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
+  m_Script: {fileID: 11500000, guid: b08bbe909931147c8ad1f750da0844d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
+  bombPrefab: {fileID: 1334213936878926470, guid: 59048828f9f084876a24cbf6fcc3a4d4, type: 3}
   fireRate: 0
   nextFire: 0
 --- !u!114 &1210903311
@@ -25998,7 +25998,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1210903308}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
+  m_Script: {fileID: 11500000, guid: 875e34965cb8e4cfe8949cfaa3a3d504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
@@ -26393,14 +26393,13 @@ GameObject:
   - component: {fileID: 1250055529}
   - component: {fileID: 1250055528}
   - component: {fileID: 1250055527}
-  - component: {fileID: 1250055526}
   m_Layer: 9
   m_Name: lion2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1250055525
 Transform:
   m_ObjectHideFlags: 0
@@ -26417,21 +26416,6 @@ Transform:
   m_Father: {fileID: 423746054}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1250055526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250055524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
-  fireRate: 0
-  nextFire: 0
 --- !u!58 &1250055527
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -28828,7 +28812,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.024000168, y: 0.025300026}
   m_SizeDelta: {x: 0.784, y: 0.4026}
   m_Pivot: {x: 0.5, y: 0.5}
