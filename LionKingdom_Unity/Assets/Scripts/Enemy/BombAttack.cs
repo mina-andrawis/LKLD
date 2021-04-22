@@ -8,7 +8,6 @@ public class BombAttack : MonoBehaviour
     
     public float fireRate;
     public float nextFire;
-    public Transform firePoint;
     public Animator animator;
     
     // Start is called before the first frame update
@@ -29,7 +28,7 @@ public class BombAttack : MonoBehaviour
         if(Time.time > nextFire)
         {
             animator.SetTrigger("IsThrowing");
-            Instantiate(bombPrefab, firePoint.position, firePoint.rotation);
+            Instantiate(bombPrefab, transform.position, Quaternion.identity);
             nextFire = Time.time + fireRate;
         }
     }

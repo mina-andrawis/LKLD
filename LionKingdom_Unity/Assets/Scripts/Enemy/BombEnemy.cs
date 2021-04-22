@@ -15,17 +15,17 @@ public class BombEnemy : MonoBehaviour
     public Rigidbody2D rb;
     PlayerMovement target;
     PlayerHealth health;
-    Vector2 moveDirection;
     
     private void Start()
     {
         target = GameObject.FindObjectOfType<PlayerMovement>();
         health = GameObject.FindObjectOfType<PlayerHealth>();
+        rb = GetComponent<Rigidbody2D>();
 
         if(Thrown)
         {
-            var direction = transform.right + Vector3.up;
-            GetComponent<Rigidbody2D>().AddForce(direction * Speed, ForceMode2D.Impulse);
+            var direction = (target.transform.position - transform.position).normalized * Speed;
+            rb.velocity = new Vector2(direction.x, direction.y);
         }
         transform.Translate(LaunchOffset);
         Destroy(gameObject, 5);

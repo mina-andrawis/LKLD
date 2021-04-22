@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3179f636ca5449b79b229213e54e257, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 100
+  Speed: 150
   LaunchOffset: {x: 5, y: 5, z: 5}
   Thrown: 1
   damage: 30
