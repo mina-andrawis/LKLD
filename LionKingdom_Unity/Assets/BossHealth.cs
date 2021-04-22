@@ -9,7 +9,7 @@ public class BossHealth : MonoBehaviour
     public Transform dropPoint;
 	
 	public int maxHealth = 100;
-	int currentHealth;
+	public int currentHealth;
     public HealthBar healthBar;
 	
 	//Start is called before the first frame update

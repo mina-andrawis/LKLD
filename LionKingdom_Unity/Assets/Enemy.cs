@@ -11,7 +11,7 @@ public class BossMovement : MonoBehaviour
 
     void Start()
     {
-        //bossHealth;
+        bossHealth = GameObject.FindObjectOfType<BossHealth>();
         GetComponent<SwordAttack>().enabled = true;
     }
     
@@ -34,6 +34,17 @@ public class BossMovement : MonoBehaviour
         {
             transform.Translate(-2 * Time.deltaTime * speed, 0, 0);
             transform.localScale = new Vector2(8, 8);
+        }
+        
+        if(bossHealth.currentHealth <= 80 && bossHealth.currentHealth > 40)
+        {
+            GetComponent<SwordAttack>().enabled = false;
+            GetComponent<ArrowAttack>().enabled = true;
+        }
+        else if(bossHealth.currentHealth <= 40)
+        {
+            GetComponent<ArrowAttack>().enabled = false;
+            GetComponent<BombAttack>().enabled = true;
         }
         
         
