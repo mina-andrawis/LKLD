@@ -3921,12 +3921,13 @@ MonoBehaviour:
   animator: {fileID: 349718620}
   attackPoint: {fileID: 1501767764}
   playerLayers:
-    serializedVersion: 2
     m_Bits: 64
   knifePrefab: {fileID: 0}
   attackRange: 1.5
   attackDamage: 10
   attackRate: 1
+  nextAttackTime: 0
+  dist: 0
   player: {fileID: 1996306356}
 --- !u!95 &349718620
 Animator:
@@ -5210,12 +5211,13 @@ MonoBehaviour:
   animator: {fileID: 484026234}
   attackPoint: {fileID: 1051832950}
   playerLayers:
-    serializedVersion: 2
     m_Bits: 64
   knifePrefab: {fileID: 7815089431911272451, guid: aa36a6dc3f8be4862a3878eb2909903e, type: 3}
   attackRange: 1.5
   attackDamage: 10
   attackRate: 1
+  nextAttackTime: 0
+  dist: 0
   player: {fileID: 1996306356}
 --- !u!95 &484026234
 Animator:
@@ -14776,12 +14778,13 @@ MonoBehaviour:
   animator: {fileID: 1034980257}
   attackPoint: {fileID: 1092415596}
   playerLayers:
-    serializedVersion: 2
     m_Bits: 64
   knifePrefab: {fileID: 7815089431911272451, guid: aa36a6dc3f8be4862a3878eb2909903e, type: 3}
   attackRange: 1.5
   attackDamage: 10
   attackRate: 1
+  nextAttackTime: 0
+  dist: 0
   player: {fileID: 1996306356}
 --- !u!114 &1034980261
 MonoBehaviour:
@@ -17627,12 +17630,13 @@ MonoBehaviour:
   animator: {fileID: 1235441200}
   attackPoint: {fileID: 1553415435}
   playerLayers:
-    serializedVersion: 2
     m_Bits: 64
   knifePrefab: {fileID: 7815089431911272451, guid: aa36a6dc3f8be4862a3878eb2909903e, type: 3}
   attackRange: 1.5
   attackDamage: 10
   attackRate: 1
+  nextAttackTime: 0
+  dist: 0
   player: {fileID: 1996306356}
 --- !u!50 &1235441198
 Rigidbody2D:
@@ -22930,12 +22934,13 @@ MonoBehaviour:
   animator: {fileID: 1709572050}
   attackPoint: {fileID: 1579073044}
   playerLayers:
-    serializedVersion: 2
     m_Bits: 64
   knifePrefab: {fileID: 7815089431911272451, guid: aa36a6dc3f8be4862a3878eb2909903e, type: 3}
   attackRange: 1.5
   attackDamage: 10
   attackRate: 1
+  nextAttackTime: 0
+  dist: 0
   player: {fileID: 1996306356}
 --- !u!95 &1709572050
 Animator:
@@ -25196,12 +25201,13 @@ MonoBehaviour:
   animator: {fileID: 1891435363}
   attackPoint: {fileID: 1494196171}
   playerLayers:
-    serializedVersion: 2
     m_Bits: 64
   knifePrefab: {fileID: 7815089431911272451, guid: aa36a6dc3f8be4862a3878eb2909903e, type: 3}
   attackRange: 1.5
   attackDamage: 10
   attackRate: 1
+  nextAttackTime: 0
+  dist: 0
   player: {fileID: 1996306356}
 --- !u!95 &1891435363
 Animator:
@@ -26652,7 +26658,7 @@ MonoBehaviour:
     m_Bits: 512
   knifePrefab: {fileID: 1679379326609583192, guid: f51c8019202fd412f89bc930253606bf, type: 3}
   attackRange: 0.5
-  attackDamage: 40
+  attackDamage: 20
   attackRate: 2
 --- !u!114 &1996306367
 MonoBehaviour:
