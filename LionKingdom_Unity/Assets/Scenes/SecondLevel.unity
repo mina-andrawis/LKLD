@@ -1182,6 +1182,7 @@ MonoBehaviour:
   arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
   fireRate: 0
   nextFire: 0
+  animator: {fileID: 190185841}
 --- !u!114 &190185837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4658,6 +4659,7 @@ MonoBehaviour:
   arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
   fireRate: 0
   nextFire: 0
+  animator: {fileID: 703379315}
 --- !u!58 &703379311
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5917,6 +5919,7 @@ MonoBehaviour:
   arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
   fireRate: 0
   nextFire: 0
+  animator: {fileID: 891358103}
 --- !u!1 &904529376
 GameObject:
   m_ObjectHideFlags: 0
@@ -7434,6 +7437,7 @@ MonoBehaviour:
   arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
   fireRate: 0
   nextFire: 0
+  animator: {fileID: 1077372791}
 --- !u!1 &1084789322
 GameObject:
   m_ObjectHideFlags: 0
@@ -15438,6 +15442,7 @@ MonoBehaviour:
   arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
   fireRate: 0
   nextFire: 0
+  animator: {fileID: 1566591166}
 --- !u!1 &1612970071
 GameObject:
   m_ObjectHideFlags: 0
@@ -15567,6 +15572,7 @@ MonoBehaviour:
   arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
   fireRate: 0
   nextFire: 0
+  animator: {fileID: 1635022937}
 --- !u!58 &1635022933
 CircleCollider2D:
   m_ObjectHideFlags: 0

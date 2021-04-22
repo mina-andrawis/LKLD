@@ -8,6 +8,7 @@ public class ArrowAttack : MonoBehaviour
     
     public float fireRate;
     public float nextFire;
+    public Animator animator;
     
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class ArrowAttack : MonoBehaviour
     {
         if(Time.time > nextFire)
         {
+            animator.SetTrigger("IsShooting");
             Instantiate(arrowPrefab, transform.position, Quaternion.identity);
             nextFire = Time.time + fireRate;
         }
