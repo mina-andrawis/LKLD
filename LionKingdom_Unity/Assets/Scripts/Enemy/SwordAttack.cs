@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 
-public class KnifeAttack : MonoBehaviour
+public class SwordAttack : MonoBehaviour
 {
     public Animator animator;
 	public Transform attackPoint;

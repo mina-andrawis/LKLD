@@ -18962,6 +18962,8 @@ MonoBehaviour:
   fireRate: 0
   nextFire: 0
   animator: {fileID: 42941963}
+  player: {fileID: 2104533478}
+  range: 100
 --- !u!1 &48164483
 GameObject:
   m_ObjectHideFlags: 0
@@ -21025,6 +21027,8 @@ MonoBehaviour:
   fireRate: 0
   nextFire: 0
   animator: {fileID: 394539980}
+  player: {fileID: 2104533478}
+  range: 100
 --- !u!1 &398659273
 GameObject:
   m_ObjectHideFlags: 0
@@ -24622,6 +24626,8 @@ MonoBehaviour:
   fireRate: 0
   nextFire: 0
   animator: {fileID: 1103879367}
+  player: {fileID: 2104533478}
+  range: 100
 --- !u!58 &1103879363
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24817,6 +24823,8 @@ MonoBehaviour:
   fireRate: 0
   nextFire: 0
   animator: {fileID: 1104682799}
+  player: {fileID: 2104533478}
+  range: 100
 --- !u!58 &1104682795
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25994,6 +26002,8 @@ MonoBehaviour:
   fireRate: 0
   nextFire: 0
   animator: {fileID: 1210903315}
+  player: {fileID: 2104533478}
+  range: 100
 --- !u!114 &1210903311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26438,6 +26448,8 @@ MonoBehaviour:
   fireRate: 0
   nextFire: 0
   animator: {fileID: 1250055531}
+  player: {fileID: 2104533478}
+  range: 100
 --- !u!58 &1250055527
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -27694,6 +27706,8 @@ MonoBehaviour:
   fireRate: 0
   nextFire: 0
   animator: {fileID: 1368977828}
+  player: {fileID: 2104533478}
+  range: 100
 --- !u!58 &1368977824
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29369,6 +29383,8 @@ MonoBehaviour:
   fireRate: 0
   nextFire: 0
   animator: {fileID: 1634947124}
+  player: {fileID: 2104533478}
+  range: 100
 --- !u!58 &1634947120
 CircleCollider2D:
   m_ObjectHideFlags: 0
