@@ -19,13 +19,13 @@ public class BombEnemy : MonoBehaviour
     
     private void Start()
     {
+        target = GameObject.FindObjectOfType<PlayerMovement>();
+        health = GameObject.FindObjectOfType<PlayerHealth>();
+
         if(Thrown)
         {
-            rb = GetComponent<Rigidbody2D>();
-            target = GameObject.FindObjectOfType<PlayerMovement>();
-            health = GameObject.FindObjectOfType<PlayerHealth>();
-            moveDirection = (target.transform.position - transform.position).normalized * Speed;
-            rb.velocity = new Vector2(moveDirection.x, moveDirection.y);
+            var direction = transform.right + Vector3.up;
+            GetComponent<Rigidbody2D>().AddForce(direction * Speed, ForceMode2D.Impulse);
         }
         transform.Translate(LaunchOffset);
         Destroy(gameObject, 5);
