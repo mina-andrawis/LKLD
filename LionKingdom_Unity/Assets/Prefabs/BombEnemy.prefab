@@ -158,7 +158,7 @@ MonoBehaviour:
   Speed: 150
   LaunchOffset: {x: 5, y: 5, z: 5}
   Thrown: 1
-  damage: 30
+  damage: 20
   splashRange: 10
   animator: {fileID: 7666685725403070425}
   rb: {fileID: 1466770930234652720}

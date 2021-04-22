@@ -18779,9 +18779,9 @@ GameObject:
   - component: {fileID: 42941964}
   - component: {fileID: 42941963}
   - component: {fileID: 42941962}
-  - component: {fileID: 42941961}
   - component: {fileID: 42941960}
   - component: {fileID: 42941959}
+  - component: {fileID: 42941965}
   - component: {fileID: 42941958}
   m_Layer: 9
   m_Name: lion5
@@ -18815,12 +18815,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 42941956}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
+  m_Script: {fileID: 11500000, guid: 875e34965cb8e4cfe8949cfaa3a3d504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
-  fireRate: 0
-  nextFire: 0
+  speed: 0
+  moveRight: 0
+  animator: {fileID: 42941963}
 --- !u!58 &42941959
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18854,21 +18854,6 @@ MonoBehaviour:
   dropPoint: {fileID: 534754065}
   maxHealth: 100
   healthBar: {fileID: 1646117691}
---- !u!114 &42941961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42941956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  moveRight: 0
-  animator: {fileID: 42941963}
 --- !u!50 &42941962
 Rigidbody2D:
   serializedVersion: 4
@@ -18961,6 +18946,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &42941965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42941956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b08bbe909931147c8ad1f750da0844d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bombPrefab: {fileID: 1334213936878926470, guid: 59048828f9f084876a24cbf6fcc3a4d4, type: 3}
+  fireRate: 0
+  nextFire: 0
+  animator: {fileID: 42941963}
 --- !u!1 &48164483
 GameObject:
   m_ObjectHideFlags: 0
@@ -20841,9 +20842,9 @@ GameObject:
   - component: {fileID: 394539981}
   - component: {fileID: 394539980}
   - component: {fileID: 394539979}
-  - component: {fileID: 394539978}
   - component: {fileID: 394539977}
   - component: {fileID: 394539976}
+  - component: {fileID: 394539982}
   - component: {fileID: 394539975}
   m_Layer: 9
   m_Name: lion4
@@ -20877,12 +20878,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 394539973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
+  m_Script: {fileID: 11500000, guid: 875e34965cb8e4cfe8949cfaa3a3d504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
-  fireRate: 0
-  nextFire: 0
+  speed: 0
+  moveRight: 0
+  animator: {fileID: 394539980}
 --- !u!58 &394539976
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20916,21 +20917,6 @@ MonoBehaviour:
   dropPoint: {fileID: 1720443520}
   maxHealth: 100
   healthBar: {fileID: 173713542}
---- !u!114 &394539978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394539973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  moveRight: 0
-  animator: {fileID: 394539980}
 --- !u!50 &394539979
 Rigidbody2D:
   serializedVersion: 4
@@ -21023,6 +21009,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &394539982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394539973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b08bbe909931147c8ad1f750da0844d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bombPrefab: {fileID: 1334213936878926470, guid: 59048828f9f084876a24cbf6fcc3a4d4, type: 3}
+  fireRate: 0
+  nextFire: 0
+  animator: {fileID: 394539980}
 --- !u!1 &398659273
 GameObject:
   m_ObjectHideFlags: 0
@@ -24577,10 +24579,10 @@ GameObject:
   - component: {fileID: 1103879368}
   - component: {fileID: 1103879367}
   - component: {fileID: 1103879366}
-  - component: {fileID: 1103879365}
   - component: {fileID: 1103879364}
   - component: {fileID: 1103879363}
   - component: {fileID: 1103879362}
+  - component: {fileID: 1103879365}
   m_Layer: 9
   m_Name: lion7
   m_TagString: Enemy
@@ -24613,12 +24615,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1103879360}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
+  m_Script: {fileID: 11500000, guid: b08bbe909931147c8ad1f750da0844d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
+  bombPrefab: {fileID: 1334213936878926470, guid: 59048828f9f084876a24cbf6fcc3a4d4, type: 3}
   fireRate: 0
   nextFire: 0
+  animator: {fileID: 1103879367}
 --- !u!58 &1103879363
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24661,7 +24664,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1103879360}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
+  m_Script: {fileID: 11500000, guid: 875e34965cb8e4cfe8949cfaa3a3d504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
@@ -24771,10 +24774,10 @@ GameObject:
   - component: {fileID: 1104682800}
   - component: {fileID: 1104682799}
   - component: {fileID: 1104682798}
-  - component: {fileID: 1104682797}
   - component: {fileID: 1104682796}
   - component: {fileID: 1104682795}
   - component: {fileID: 1104682794}
+  - component: {fileID: 1104682797}
   m_Layer: 9
   m_Name: lion6
   m_TagString: Enemy
@@ -24807,12 +24810,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1104682792}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
+  m_Script: {fileID: 11500000, guid: b08bbe909931147c8ad1f750da0844d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
+  bombPrefab: {fileID: 1334213936878926470, guid: 59048828f9f084876a24cbf6fcc3a4d4, type: 3}
   fireRate: 0
   nextFire: 0
+  animator: {fileID: 1104682799}
 --- !u!58 &1104682795
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24855,7 +24859,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1104682792}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
+  m_Script: {fileID: 11500000, guid: 875e34965cb8e4cfe8949cfaa3a3d504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
@@ -25989,6 +25993,7 @@ MonoBehaviour:
   bombPrefab: {fileID: 1334213936878926470, guid: 59048828f9f084876a24cbf6fcc3a4d4, type: 3}
   fireRate: 0
   nextFire: 0
+  animator: {fileID: 1210903315}
 --- !u!114 &1210903311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26390,16 +26395,17 @@ GameObject:
   - component: {fileID: 1250055532}
   - component: {fileID: 1250055531}
   - component: {fileID: 1250055530}
-  - component: {fileID: 1250055529}
   - component: {fileID: 1250055528}
   - component: {fileID: 1250055527}
+  - component: {fileID: 1250055526}
+  - component: {fileID: 1250055529}
   m_Layer: 9
   m_Name: lion2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1250055525
 Transform:
   m_ObjectHideFlags: 0
@@ -26416,6 +26422,22 @@ Transform:
   m_Father: {fileID: 423746054}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1250055526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250055524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b08bbe909931147c8ad1f750da0844d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bombPrefab: {fileID: 1334213936878926470, guid: 59048828f9f084876a24cbf6fcc3a4d4, type: 3}
+  fireRate: 0
+  nextFire: 0
+  animator: {fileID: 1250055531}
 --- !u!58 &1250055527
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26458,7 +26480,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1250055524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
+  m_Script: {fileID: 11500000, guid: 875e34965cb8e4cfe8949cfaa3a3d504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
@@ -27629,10 +27651,10 @@ GameObject:
   - component: {fileID: 1368977829}
   - component: {fileID: 1368977828}
   - component: {fileID: 1368977827}
-  - component: {fileID: 1368977826}
   - component: {fileID: 1368977825}
   - component: {fileID: 1368977824}
   - component: {fileID: 1368977823}
+  - component: {fileID: 1368977826}
   m_Layer: 9
   m_Name: lion8
   m_TagString: Enemy
@@ -27665,12 +27687,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1368977821}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
+  m_Script: {fileID: 11500000, guid: b08bbe909931147c8ad1f750da0844d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
+  bombPrefab: {fileID: 1334213936878926470, guid: 59048828f9f084876a24cbf6fcc3a4d4, type: 3}
   fireRate: 0
   nextFire: 0
+  animator: {fileID: 1368977828}
 --- !u!58 &1368977824
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -27713,7 +27736,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1368977821}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
+  m_Script: {fileID: 11500000, guid: 875e34965cb8e4cfe8949cfaa3a3d504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
@@ -28812,7 +28835,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0.024000168, y: 0.025300026}
   m_SizeDelta: {x: 0.784, y: 0.4026}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -29303,10 +29326,10 @@ GameObject:
   - component: {fileID: 1634947125}
   - component: {fileID: 1634947124}
   - component: {fileID: 1634947123}
-  - component: {fileID: 1634947122}
   - component: {fileID: 1634947121}
   - component: {fileID: 1634947120}
   - component: {fileID: 1634947119}
+  - component: {fileID: 1634947122}
   m_Layer: 9
   m_Name: lion3
   m_TagString: Enemy
@@ -29339,12 +29362,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1634947117}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b274a3213fd724c16889a2738b311272, type: 3}
+  m_Script: {fileID: 11500000, guid: b08bbe909931147c8ad1f750da0844d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
+  bombPrefab: {fileID: 1334213936878926470, guid: 59048828f9f084876a24cbf6fcc3a4d4, type: 3}
   fireRate: 0
   nextFire: 0
+  animator: {fileID: 1634947124}
 --- !u!58 &1634947120
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29387,7 +29411,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1634947117}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c32c52c7c6cfdd4e966b29c6f385a41, type: 3}
+  m_Script: {fileID: 11500000, guid: 875e34965cb8e4cfe8949cfaa3a3d504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
