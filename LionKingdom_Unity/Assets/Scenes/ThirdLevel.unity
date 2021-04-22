@@ -19390,7 +19390,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 152057412}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -91.51111, y: 75.2, z: -10}
+  m_LocalPosition: {x: 1758.7888, y: 265.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 693418503}
@@ -27781,7 +27781,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331319931}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -91.51111, y: 75.2, z: -10}
+  m_LocalPosition: {x: 1758.7888, y: 265.4, z: -10}
   m_LocalScale: {x: 2, y: 3, z: 1}
   m_Children:
   - {fileID: 974195298}
@@ -39602,12 +39602,12 @@ GameObject:
   - component: {fileID: 1718421891}
   - component: {fileID: 1718421890}
   - component: {fileID: 1718421889}
-  - component: {fileID: 1718421888}
   - component: {fileID: 1718421887}
-  - component: {fileID: 1718421886}
   - component: {fileID: 1718421885}
   - component: {fileID: 1718421884}
   - component: {fileID: 1718421883}
+  - component: {fileID: 1718421888}
+  - component: {fileID: 1718421886}
   m_Layer: 9
   m_Name: boss2
   m_TagString: Enemy
@@ -39623,7 +39623,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718421881}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.2, y: -121.4, z: 37.971058}
+  m_LocalPosition: {x: 74.2, y: -121.9, z: 37.971058}
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 2127682650}
@@ -39647,8 +39647,8 @@ MonoBehaviour:
   bombPrefab: {fileID: 1334213936878926470, guid: 59048828f9f084876a24cbf6fcc3a4d4, type: 3}
   fireRate: 0
   nextFire: 0
-  animator: {fileID: 0}
-  player: {fileID: 0}
+  animator: {fileID: 1718421890}
+  player: {fileID: 2104533478}
   range: 100
 --- !u!114 &1718421884
 MonoBehaviour:
@@ -39665,7 +39665,7 @@ MonoBehaviour:
   arrowPrefab: {fileID: 6022331566411440155, guid: 77f0d3e92d26a4b6f9517bf34e3ea82f, type: 3}
   fireRate: 0
   nextFire: 0
-  animator: {fileID: 0}
+  animator: {fileID: 1718421890}
 --- !u!114 &1718421885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39687,7 +39687,7 @@ MonoBehaviour:
   attackRange: 1
   attackDamage: 10
   attackRate: 0.5
-  player: {fileID: 0}
+  player: {fileID: 2104533478}
 --- !u!114 &1718421886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39697,12 +39697,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1718421881}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ace7c0b173e475bb82d8949571f210, type: 3}
+  m_Script: {fileID: 11500000, guid: cd0d28d9c387f4a05bec69a9974144ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  moveRight: 0
   animator: {fileID: 1718421890}
+  healthPotion: {fileID: 3492534353877029058, guid: d69983e36d67a437eba856ef527ae7f8, type: 3}
+  dropPoint: {fileID: 292677321}
+  maxHealth: 100
+  healthBar: {fileID: 1102723888}
 --- !u!58 &1718421887
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -39728,14 +39730,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1718421881}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96e55566e34a2417290b9384719a8078, type: 3}
+  m_Script: {fileID: 11500000, guid: 52f8475046483495990c73278704f6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  moveRight: 0
   animator: {fileID: 1718421890}
-  healthPotion: {fileID: 3492534353877029058, guid: d69983e36d67a437eba856ef527ae7f8, type: 3}
-  dropPoint: {fileID: 292677321}
-  maxHealth: 100
-  healthBar: {fileID: 1102723888}
 --- !u!50 &1718421889
 Rigidbody2D:
   serializedVersion: 4
@@ -42141,7 +42141,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2104533478}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -161.2, y: 47.2, z: 0}
+  m_LocalPosition: {x: 1689.1, y: 237.4, z: 0}
   m_LocalScale: {x: 4.3, y: 3.7, z: 1}
   m_Children:
   - {fileID: 2977901}
