@@ -33,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Potion"))
         {
-            currentHealth += 10;
+            currentHealth = 100;
             healthBar.SetHealth(currentHealth);
             Destroy(other.gameObject);
         }
