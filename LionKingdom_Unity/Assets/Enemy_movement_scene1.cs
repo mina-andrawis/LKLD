@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Enemy_movement_scene1 : MonoBehaviour
 {
- // Start is called before the first frame update
     public float speed;
     public bool moveRight;
     public Animator animator;
