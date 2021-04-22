@@ -7,7 +7,14 @@ public class BossMovement : MonoBehaviour
     public float speed;
     public bool moveRight;
     public Animator animator;
+    BossHealth bossHealth;
 
+    void Start()
+    {
+        //bossHealth;
+        GetComponent<SwordAttack>().enabled = true;
+    }
+    
     // Update is called once per frame
     void Update()
     {
@@ -28,6 +35,8 @@ public class BossMovement : MonoBehaviour
             transform.Translate(-2 * Time.deltaTime * speed, 0, 0);
             transform.localScale = new Vector2(8, 8);
         }
+        
+        
         
     }
 
