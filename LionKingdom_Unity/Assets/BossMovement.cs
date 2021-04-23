@@ -13,6 +13,8 @@ public class BossMovement : MonoBehaviour
     {
         bossHealth = GameObject.FindObjectOfType<BossHealth>();
         GetComponent<SwordAttack>().enabled = true;
+        GetComponent<ArrowAttack>().enabled = false;
+        GetComponent<BombAttack>().enabled = false;
     }
     
     // Update is called once per frame
