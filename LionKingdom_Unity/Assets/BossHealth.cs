@@ -42,6 +42,11 @@ public class BossHealth : MonoBehaviour
 
 	void Die()
 	{
+
+    GetComponent<SwordAttack>().enabled = false;
+    GetComponent<ArrowAttack>().enabled = false;
+    GetComponent<BombAttack>().enabled = false;
+
         if (Random.Range (0f, 1f) <= .25)
         {
             Instantiate (healthPotion, dropPoint.position, dropPoint.rotation);

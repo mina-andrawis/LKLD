@@ -40458,7 +40458,7 @@ MonoBehaviour:
     m_Bits: 64
   knifePrefab: {fileID: 7815089431911272451, guid: aa36a6dc3f8be4862a3878eb2909903e, type: 3}
   attackRange: 2
-  attackDamage: 10
+  attackDamage: 25
   attackRate: 0.5
   player: {fileID: 2104533478}
 --- !u!114 &1718421886
@@ -40476,7 +40476,7 @@ MonoBehaviour:
   animator: {fileID: 1718421890}
   healthPotion: {fileID: 3492534353877029058, guid: d69983e36d67a437eba856ef527ae7f8, type: 3}
   dropPoint: {fileID: 292677321}
-  maxHealth: 200
+  maxHealth: 400
   currentHealth: 0
   healthBar: {fileID: 1102723888}
   trigger: {fileID: 1718421892}

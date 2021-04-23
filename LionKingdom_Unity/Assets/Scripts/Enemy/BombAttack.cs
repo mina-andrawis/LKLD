@@ -5,18 +5,27 @@ using UnityEngine;
 public class BombAttack : MonoBehaviour
 {
     public GameObject bombPrefab;
-    
+
     public float fireRate;
     public float nextFire;
     public Animator animator;
     float dist;
     public GameObject player;
     public float range;
-    
+
     // Start is called before the first frame update
     void Start()
     {
+      if (GetComponent<Enemy>() !=null)
+      {
         fireRate = 3f;
+
+      }
+      if (GetComponent<BossHealth>() != null)
+      {
+        fireRate = 2.2f;
+
+      }
         nextFire = Time.time;
     }
 
@@ -26,7 +35,7 @@ public class BombAttack : MonoBehaviour
         dist = Vector2.Distance(player.transform.position, gameObject.transform.position);
         CheckIfTimeToFire();
     }
-    
+
     void CheckIfTimeToFire()
     {
         if(Time.time > nextFire && dist < range)

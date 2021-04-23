@@ -15,9 +15,9 @@ public class BossMovement : MonoBehaviour
         GetComponent<SwordAttack>().enabled = true;
         GetComponent<ArrowAttack>().enabled = false;
         GetComponent<BombAttack>().enabled = false;
-        speed = 12;
+        speed = 15;
     }
-    
+
     // Update is called once per frame
     void Update()
     {
@@ -25,7 +25,7 @@ public class BossMovement : MonoBehaviour
             this.GetComponent<Collider2D>().enabled = false;
             return;
         }
-        
+
         // if move right is true
         if (moveRight)
         {
@@ -37,22 +37,22 @@ public class BossMovement : MonoBehaviour
             transform.Translate(-2 * Time.deltaTime * speed, 0, 0);
             transform.localScale = new Vector2(8, 8);
         }
-        
-        if(bossHealth.currentHealth <= 160 && bossHealth.currentHealth > 80)
+
+        if(bossHealth.currentHealth <= 300 && bossHealth.currentHealth > 200)
         {
-            speed = 16;
+            speed = 20;
             GetComponent<SwordAttack>().enabled = false;
             GetComponent<ArrowAttack>().enabled = true;
         }
-        else if(bossHealth.currentHealth <= 80)
+        else if(bossHealth.currentHealth <= 200)
         {
-            speed = 20;
+            speed = 30;
             GetComponent<ArrowAttack>().enabled = false;
             GetComponent<BombAttack>().enabled = true;
         }
-        
-        
-        
+
+
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
