@@ -13,11 +13,14 @@ public class PlayerHealth : MonoBehaviour
   public HealthBar healthBar;
   public Animator animator;
 
+    public bool checkPoint;
+
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        checkPoint = false;
     }
 
 
@@ -29,6 +32,10 @@ public class PlayerHealth : MonoBehaviour
             currentHealth += 50;
             healthBar.SetHealth(currentHealth);
             Destroy(other.gameObject);
+        }
+        if (other.gameObject.CompareTag("CheckPoint"))
+        {
+            checkPoint = true;
         }
     }
 
@@ -44,8 +51,19 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+
     void Die()
     {
-        Application.LoadLevel(Application.loadedLevel);
+        if (checkPoint)
+        {
+            transform.position = new Vector2(1912, 310);
+            currentHealth = 100;
+            BossHealth bossHealth = GameObject.FindObjectOfType<BossHealth>();
+            bossHealth.currentHealth = 200;
+        }
+        else
+        {
+            Application.LoadLevel(Application.loadedLevel);
+        }
     }
 }
