@@ -20,15 +20,8 @@ public class PlayerHealth : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-          TakeDamage(5);
-        }
-    }
-    
+
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.CompareTag("Potion"))
@@ -50,7 +43,7 @@ public class PlayerHealth : MonoBehaviour
             Die();
         }
     }
-    
+
     void Die()
     {
         Application.LoadLevel(Application.loadedLevel);
