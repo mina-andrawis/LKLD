@@ -19506,7 +19506,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.85714287, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -19523,7 +19523,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 152057412}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1722.7, y: 265.4, z: -10}
+  m_LocalPosition: {x: 1758.7888, y: 265.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 693418503}
@@ -20541,7 +20541,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267244450}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.75, y: 0, z: 0}
+  m_LocalPosition: {x: -1.522, y: -0.594, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1718421882}
@@ -28378,7 +28378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331319931}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1722.7, y: 265.4, z: -10}
+  m_LocalPosition: {x: 1758.7888, y: 265.4, z: -10}
   m_LocalScale: {x: 2, y: 3, z: 1}
   m_Children:
   - {fileID: 974195298}
@@ -40221,7 +40221,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718421881}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 74.2, y: -121.9, z: 37.971058}
+  m_LocalPosition: {x: 58.7, y: -121.9, z: 37.971058}
   m_LocalScale: {x: 8.6032, y: 8, z: 1}
   m_Children:
   - {fileID: 2127682650}
@@ -40282,7 +40282,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   knifePrefab: {fileID: 7815089431911272451, guid: aa36a6dc3f8be4862a3878eb2909903e, type: 3}
-  attackRange: 1
+  attackRange: 2
   attackDamage: 10
   attackRate: 0.5
   player: {fileID: 2104533478}
@@ -40301,7 +40301,7 @@ MonoBehaviour:
   animator: {fileID: 1718421890}
   healthPotion: {fileID: 3492534353877029058, guid: d69983e36d67a437eba856ef527ae7f8, type: 3}
   dropPoint: {fileID: 292677321}
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   healthBar: {fileID: 1102723888}
   trigger: {fileID: 1718421892}
@@ -40333,11 +40333,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52f8475046483495990c73278704f6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  moveRight: 0
   animator: {fileID: 1718421890}
-  healthPotion: {fileID: 0}
-  dropPoint: {fileID: 0}
-  maxHealth: 100
-  healthBar: {fileID: 0}
 --- !u!50 &1718421889
 Rigidbody2D:
   serializedVersion: 4
