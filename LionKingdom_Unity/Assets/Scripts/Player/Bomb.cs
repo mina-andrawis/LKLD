@@ -41,23 +41,37 @@ public class Bomb : MonoBehaviour
             foreach(var hitCollider in hitColliders)
             {
                 var enemy = hitCollider.GetComponent<Enemy>();
+                var boss = hitCollider.GetComponent<BossHealth>();
             
                 if(enemy)
                 {
                     var closestPoint = hitCollider.ClosestPoint(transform.position);
                     var distance = Vector3.Distance(closestPoint, transform.position);
                     var damagePercent = Mathf.InverseLerp(splashRange, 0, distance);
-                    
                     enemy.TakeDamage((int)Math.Round(damagePercent * damage));
+                }
+                else if(boss)
+                {
+                    var closestPoint = hitCollider.ClosestPoint(transform.position);
+                    var distance = Vector3.Distance(closestPoint, transform.position);
+                    var damagePercent = Mathf.InverseLerp(splashRange, 0, distance);
+                    boss.TakeDamage((int)Math.Round(damagePercent * damage));
                 }
             }
         }
         else
         {
             var enemy = collision.collider.GetComponent<Enemy>();
+            var boss = collision.collider.GetComponent<BossHealth>();
+            
             if(enemy)
             {
                 enemy.TakeDamage(damage);
+            }
+            
+            else if(boss)
+            {
+                boss.TakeDamage(damage);
             }
         }
         animator.SetTrigger("IsExploding");

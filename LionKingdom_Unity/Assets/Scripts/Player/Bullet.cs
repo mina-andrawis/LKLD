@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //
-        if (collision.GetComponent<Enemy>())
+        if (collision.GetComponent<Enemy>() != null)
         {
             Debug.Log(collision.name);
             Enemy enemy = collision.GetComponent<Enemy>();
@@ -34,6 +34,22 @@ public class Bullet : MonoBehaviour
 
             Destroy(gameObject);
 
+        }
+        
+        else if(collision.GetComponent<BossHealth>() != null)
+        {
+            Debug.Log(collision.name);
+            BossHealth enemy = collision.GetComponent<BossHealth>();
+
+            // checks if the bullet hit an enemy and deals damage
+            if (enemy != null)
+            {
+                Debug.Log("Damage given: " + damage);
+
+                enemy.TakeDamage(damage);
+            }
+
+            Destroy(gameObject);
         }
 
         // bullet keeps going

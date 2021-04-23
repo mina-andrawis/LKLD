@@ -41,7 +41,11 @@ public class Weapon2 : MonoBehaviour
 		//Damage them
 		foreach(Collider2D enemy in hitEnemies)
 		{
-			enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+            if(enemy.GetComponent<Enemy>() != null)
+            {
+                enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+            }
+            else enemy.GetComponent<BossHealth>().TakeDamage(attackDamage);
 		}
 	}
 	
