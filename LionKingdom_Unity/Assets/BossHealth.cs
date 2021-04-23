@@ -8,7 +8,7 @@ public class BossHealth : MonoBehaviour
     public GameObject healthPotion;
     public Transform dropPoint;
 	
-	public int maxHealth = 100;
+	public int maxHealth = 200;
 	public int currentHealth;
     public HealthBar healthBar;
 

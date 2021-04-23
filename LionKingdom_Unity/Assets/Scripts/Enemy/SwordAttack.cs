@@ -9,7 +9,7 @@ public class SwordAttack : MonoBehaviour
 	public LayerMask playerLayers;
 	public GameObject knifePrefab;
 	
-	public float attackRange = 1f;
+	public float attackRange = 2f;
 	public int attackDamage = 40;
 	
 	public float attackRate = 2f;
