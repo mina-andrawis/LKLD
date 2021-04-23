@@ -13,7 +13,7 @@ public class ArrowAttack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fireRate = 2f;
+        fireRate = 1.5f;
         nextFire = Time.time;
     }
 

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Arrow : MonoBehaviour
 {
-    public int damage = 30;
-    public float speed = 20;
+    public int damage = 10;
+    public float speed = 17;
     public Rigidbody2D rb;
 
     PlayerMovement target;
@@ -27,7 +27,7 @@ public class Arrow : MonoBehaviour
     {
         if(collision.gameObject.name.Equals("Player"))
         {
-            health.TakeDamage(10);
+            health.TakeDamage(5);
             Destroy(gameObject);
         }
         

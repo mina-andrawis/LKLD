@@ -31,6 +31,10 @@ public class PlayerHealth : MonoBehaviour
         if(other.gameObject.CompareTag("Potion"))
         {
             currentHealth += 50;
+            if(currentHealth > 100)
+            {
+                currentHealth = maxHealth;
+            }
             healthBar.SetHealth(currentHealth);
             Destroy(other.gameObject);
         }
