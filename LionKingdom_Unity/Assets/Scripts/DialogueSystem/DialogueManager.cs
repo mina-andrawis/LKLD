@@ -48,6 +48,7 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
+      Debug.Log("clicked");
         if (sentences.Count == 0)       //no more sentences to show
         {
             EndDialogue();
