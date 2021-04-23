@@ -15,6 +15,7 @@ public class BossMovement : MonoBehaviour
         GetComponent<SwordAttack>().enabled = true;
         GetComponent<ArrowAttack>().enabled = false;
         GetComponent<BombAttack>().enabled = false;
+        speed = 12;
     }
     
     // Update is called once per frame
@@ -26,7 +27,6 @@ public class BossMovement : MonoBehaviour
         }
         
         // if move right is true
-        speed = 8;
         if (moveRight)
         {
             transform.Translate(2 * Time.deltaTime * speed, 0, 0);
@@ -40,11 +40,13 @@ public class BossMovement : MonoBehaviour
         
         if(bossHealth.currentHealth <= 80 && bossHealth.currentHealth > 40)
         {
+            speed = 16;
             GetComponent<SwordAttack>().enabled = false;
             GetComponent<ArrowAttack>().enabled = true;
         }
         else if(bossHealth.currentHealth <= 40)
         {
+            speed = 20;
             GetComponent<ArrowAttack>().enabled = false;
             GetComponent<BombAttack>().enabled = true;
         }
