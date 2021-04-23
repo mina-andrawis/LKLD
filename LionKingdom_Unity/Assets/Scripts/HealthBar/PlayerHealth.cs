@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;   //in order to create variable to store slider
+using UnityEngine.SceneManagement;
 
 
 public class PlayerHealth : MonoBehaviour
@@ -35,9 +36,9 @@ public class PlayerHealth : MonoBehaviour
         }
         if (other.gameObject.CompareTag("CheckPoint"))
         {
-            GameObject.Find("Main Camera").active = false;
-            GameObject.Find("BossCamera").active = true;
-            checkPoint = true;
+            //GameObject.Find("Main Camera").active = false;
+            //GameObject.Find("BossCamera").active = true;
+            SceneManager.LoadScene("BossLevel");
         }
     }
 
@@ -49,18 +50,7 @@ public class PlayerHealth : MonoBehaviour
         if(currentHealth <=0)
         {
             animator.SetTrigger("IsDead");
-            if (checkPoint)
-            {
-                transform.Translate(1912, 310, 0);
-                currentHealth = maxHealth;
-                //BossHealth bossHealth = GameObject.FindObjectOfType<BossHealth>();
-                //bossHealth.currentHealth = 200;
-            }
-            else
-            {
-                Die();
-            }
-            //Die();
+            Die();
         }
     }
 
@@ -71,4 +61,5 @@ public class PlayerHealth : MonoBehaviour
         Application.LoadLevel(Application.loadedLevel);
      
     }
+
 }
