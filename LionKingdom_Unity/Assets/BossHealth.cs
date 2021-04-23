@@ -11,7 +11,10 @@ public class BossHealth : MonoBehaviour
 	public int maxHealth = 100;
 	public int currentHealth;
     public HealthBar healthBar;
-	
+
+	public DialogueTrigger trigger;
+
+
 	//Start is called before the first frame update
 	void Start()
 	{
@@ -44,5 +47,8 @@ public class BossHealth : MonoBehaviour
   
 		this.enabled = false;
         Destroy(gameObject, 2);
+
+		trigger.TriggerDialogue();
+		//start dialogue box system
 	}
 }
