@@ -38,13 +38,13 @@ public class BossMovement : MonoBehaviour
             transform.localScale = new Vector2(8, 8);
         }
         
-        if(bossHealth.currentHealth <= 80 && bossHealth.currentHealth > 40)
+        if(bossHealth.currentHealth <= 160 && bossHealth.currentHealth > 80)
         {
             speed = 16;
             GetComponent<SwordAttack>().enabled = false;
             GetComponent<ArrowAttack>().enabled = true;
         }
-        else if(bossHealth.currentHealth <= 40)
+        else if(bossHealth.currentHealth <= 80)
         {
             speed = 20;
             GetComponent<ArrowAttack>().enabled = false;
