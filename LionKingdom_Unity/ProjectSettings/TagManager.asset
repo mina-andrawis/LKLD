@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Potion
   - Blocks
+  - CheckPoint
   layers:
   - Default
   - TransparentFX

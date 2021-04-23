@@ -47,23 +47,26 @@ public class PlayerHealth : MonoBehaviour
         if(currentHealth <=0)
         {
             animator.SetTrigger("IsDead");
-            Die();
+            if (checkPoint)
+            {
+                transform.Translate(1912, 310, 0);
+                currentHealth = maxHealth;
+                //BossHealth bossHealth = GameObject.FindObjectOfType<BossHealth>();
+                //bossHealth.currentHealth = 200;
+            }
+            else
+            {
+                Die();
+            }
+            //Die();
         }
     }
 
 
     void Die()
     {
-        if (checkPoint)
-        {
-            transform.position = new Vector2(1912, 310);
-            currentHealth = 100;
-            BossHealth bossHealth = GameObject.FindObjectOfType<BossHealth>();
-            bossHealth.currentHealth = 200;
-        }
-        else
-        {
-            Application.LoadLevel(Application.loadedLevel);
-        }
+
+        Application.LoadLevel(Application.loadedLevel);
+     
     }
 }
