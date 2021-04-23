@@ -35,6 +35,8 @@ public class PlayerHealth : MonoBehaviour
         }
         if (other.gameObject.CompareTag("CheckPoint"))
         {
+            GameObject.Find("MainCamera").active = false;
+            GameObject.Find("BossCamera").active = true;
             checkPoint = true;
         }
     }
