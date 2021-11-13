@@ -6,3 +6,9 @@ The goal of this 2D Side Scroller is to release the unjust inprisonment of prima
 At the end of each level, a new weapon is unlocked and its use is necessary in order to beat the progressively more difficult levels. The final level takes place is a castle where the user must fight their way to the final boss and eventually.. to freedom.
 
 
+
+
+
+
+https://user-images.githubusercontent.com/47870455/141661964-1c6077ad-a8ed-442d-a4f3-7fc6c7c4f67a.mp4
+
