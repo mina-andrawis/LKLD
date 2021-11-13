@@ -12,3 +12,6 @@ At the end of each level, a new weapon is unlocked and its use is necessary in o
 
 https://user-images.githubusercontent.com/47870455/141661964-1c6077ad-a8ed-442d-a4f3-7fc6c7c4f67a.mp4
 
+
+![image](https://user-images.githubusercontent.com/47870455/141662013-50d10913-77a5-430d-9ea9-abbe8c50ba7e.png)
+
